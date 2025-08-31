@@ -1,27 +1,28 @@
 #!/bin/bash
 
-# Full path to Hugo binary
+# --- CONFIG ---
 HUGO_BIN="/snap/bin/hugo"
-
-# Full path to your blog
 BLOG_DIR="/home/elizabeth/affiliate-blog"
-
-# Git settings
 GIT_BRANCH="main"
 GIT_REPO="git@github.com:matt1085/affiliate-blog.git"
+LOG_FILE="$BLOG_DIR/auto_push.log"
 
-# Move to blog directory
-cd $BLOG_DIR || exit
+# --- GO TO BLOG DIRECTORY ---
+cd "$BLOG_DIR" || exit
 
-# Build the site
-$HUGO_BIN --minify
+# --- BUILD THE SITE ---
+$HUGO_BIN --minify >> "$LOG_FILE" 2>&1
 
-# Add changes to git
+# --- CHECK FOR CHANGES ---
 git add .
 
-# Commit with timestamp
-git commit -m "Automated update: $(date '+%Y-%m-%d %H:%M:%S')" 2>/dev/null
-
-# Push to remote
-git push $GIT_REPO $GIT_BRANCH
+if git diff --cached --quiet; then
+    # No changes detected
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - No changes to commit" >> "$LOG_FILE"
+else
+    # Changes detected, commit and push
+    git commit -m "Automated update: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1
+    git push "$GIT_REPO" "$GIT_BRANCH" >> "$LOG_FILE" 2>&1
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Changes pushed to GitHub" >> "$LOG_FILE"
+fi
 

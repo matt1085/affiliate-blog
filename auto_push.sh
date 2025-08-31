@@ -1,28 +1,19 @@
 #!/bin/bash
+# Auto-build Hugo site and push to GitHub
 
-# --- CONFIG ---
-HUGO_BIN="/snap/bin/hugo"
 BLOG_DIR="/home/elizabeth/affiliate-blog"
-GIT_BRANCH="main"
-GIT_REPO="git@github.com:matt1085/affiliate-blog.git"
-LOG_FILE="$BLOG_DIR/auto_push.log"
-
-# --- GO TO BLOG DIRECTORY ---
 cd "$BLOG_DIR" || exit
 
-# --- BUILD THE SITE ---
-$HUGO_BIN --minify >> "$LOG_FILE" 2>&1
+# Build the site
+hugo
 
-# --- CHECK FOR CHANGES ---
+# Commit changes if there are any
 git add .
-
-if git diff --cached --quiet; then
-    # No changes detected
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - No changes to commit" >> "$LOG_FILE"
+if ! git diff --cached --quiet; then
+    git commit -m "Automated update: $(date '+%Y-%m-%d %H:%M:%S')"
+    git push origin main
+    echo "Site updated and pushed at $(date)" >> "$BLOG_DIR/auto_push.log"
 else
-    # Changes detected, commit and push
-    git commit -m "Automated update: $(date '+%Y-%m-%d %H:%M:%S')" >> "$LOG_FILE" 2>&1
-    git push "$GIT_REPO" "$GIT_BRANCH" >> "$LOG_FILE" 2>&1
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - Changes pushed to GitHub" >> "$LOG_FILE"
+    echo "No changes to push at $(date)" >> "$BLOG_DIR/auto_push.log"
 fi
 

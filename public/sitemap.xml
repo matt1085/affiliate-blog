@@ -35,6 +35,21 @@
     <loc>http://example.org/posts/my-post/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://example.org/posts/product_1/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/product_2/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/product_3/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/product_4/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/product_5/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/posts/2025-08-31-auto-post/</loc>
   </url><url>
     <loc>http://example.org/posts/2025-09-01-auto-post/</loc>

@@ -23,6 +23,41 @@
       <description>&lt;p&gt;Check out this product:&lt;/p&gt;&#xA;&lt;a href=&#34;https://www.amazon.com/dp/B0DZDDTFLZ?tag=matthewblog-20&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&#xA;  Product 1&#xA;&lt;/a&gt;&#xA;&lt;p&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Product 1</title>
+      <link>http://example.org/posts/product_1/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://example.org/posts/product_1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/dp/B0DZDDTFLZ?tag=matthewblog-20&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&#xA;  Product 1&#xA;&lt;/a&gt;&#xA;&lt;p&gt;&lt;/p&gt;&#xA;&#xA;This is an amazing solar panel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product 2</title>
+      <link>http://example.org/posts/product_2/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://example.org/posts/product_2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/dp/B0DGJ1F2BG?tag=matthewblog-20&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&#xA;  Product 2&#xA;&lt;/a&gt;&#xA;&lt;p&gt;&lt;/p&gt;&#xA;&#xA;High-quality portable charger.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product 3</title>
+      <link>http://example.org/posts/product_3/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://example.org/posts/product_3/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/dp/B0768N9N6N?tag=matthewblog-20&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&#xA;  Product 3&#xA;&lt;/a&gt;&#xA;&lt;p&gt;&lt;/p&gt;&#xA;&#xA;Compact solar generator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product 4</title>
+      <link>http://example.org/posts/product_4/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://example.org/posts/product_4/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/dp/B08ZJQ1XD4?tag=matthewblog-20&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&#xA;  Product 4&#xA;&lt;/a&gt;&#xA;&lt;p&gt;&lt;/p&gt;&#xA;&#xA;Portable power bank.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product 5</title>
+      <link>http://example.org/posts/product_5/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://example.org/posts/product_5/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/dp/B0BJLDLYXP?tag=matthewblog-20&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&#xA;  Product 5&#xA;&lt;/a&gt;&#xA;&lt;p&gt;&lt;/p&gt;&#xA;&#xA;LED camping lantern.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title></title>
       <link>http://example.org/posts/2025-08-31-auto-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

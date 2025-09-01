@@ -1,0 +1,8 @@
+---
+title: "Product 1"
+date: 2025-09-01
+draft: false
+---
+
+{{< affiliate title="Product 1" url="https://www.amazon.com/dp/B0DZDDTFLZ?tag=matthewblog-20" >}}
+This is an amazing solar panel.

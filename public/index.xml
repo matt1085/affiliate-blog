@@ -15,5 +15,12 @@
       <guid>http://example.org/posts/2025-08-31-auto-post/</guid>
       <description></description>
     </item>
+    <item>
+      <title></title>
+      <link>http://example.org/posts/2025-09-01-auto-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/posts/2025-09-01-auto-post/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Home on My New Hugo Site</title>
+    <link>http://example.org/tags/home/</link>
+    <description>Recent content in Home on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2025 17:25:12 +0000</lastBuildDate>
-    <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://example.org/tags/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solar Savings for Every Budget</title>
       <link>http://example.org/posts/2025-09-01-1725-auto-post/</link>
       <pubDate>Mon, 01 Sep 2025 17:25:12 +0000</pubDate>
       <guid>http://example.org/posts/2025-09-01-1725-auto-post/</guid>
       <description>&lt;h1 id=&#34;affordable-home-solar-panels-for-beginners-a-comprehensive-guide&#34;&gt;&lt;strong&gt;Affordable Home Solar Panels for Beginners: A Comprehensive Guide&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;As the world shifts towards renewable energy sources, more and more homeowners are turning to solar power to reduce their carbon footprint and save on energy bills. However, the thought of investing in home solar panels can be daunting, especially for those who are new to the concept. In this post, we&amp;rsquo;ll break down the basics of affordable home solar panels for beginners, helping you make an informed decision about going solar.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://example.org/posts/2025-08-31-auto-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/posts/2025-08-31-auto-post/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://example.org/posts/2025-09-01-auto-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/posts/2025-09-01-auto-post/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

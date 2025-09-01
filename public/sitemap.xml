@@ -2,38 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://example.org/categories/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/gear/</loc>
+    <loc>http://example.org/categories/gear/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/guide/</loc>
+    <loc>http://example.org/tags/guide/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/home/</loc>
+    <loc>http://example.org/tags/home/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://example.org/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://example.org/posts/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/renewable/</loc>
+    <loc>http://example.org/tags/renewable/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/solar/</loc>
+    <loc>http://example.org/tags/solar/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-09-01-1725-auto-post/</loc>
+    <loc>http://example.org/posts/2025-09-01-1725-auto-post/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://example.org/tags/</loc>
     <lastmod>2025-09-01T17:25:12+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-08-31-auto-post/</loc>
+    <loc>http://example.org/posts/my-post/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025-09-01-auto-post/</loc>
+    <loc>http://example.org/posts/2025-08-31-auto-post/</loc>
+  </url><url>
+    <loc>http://example.org/posts/2025-09-01-auto-post/</loc>
   </url>
 </urlset>

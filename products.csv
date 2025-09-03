@@ -1,6 +1,7 @@
-title,url,description
-"Product 1","https://www.amazon.com/dp/B0DZDDTFLZ?tag=matthewblog-20","This is an amazing solar panel."
-"Product 2","https://www.amazon.com/dp/B0DGJ1F2BG?tag=matthewblog-20","High-quality portable charger."
-"Product 3","https://www.amazon.com/dp/B0768N9N6N?tag=matthewblog-20","Compact solar generator."
-"Product 4","https://www.amazon.com/dp/B08ZJQ1XD4?tag=matthewblog-20","Portable power bank."
-"Product 5","https://www.amazon.com/dp/B0BJLDLYXP?tag=matthewblog-20","LED camping lantern."
+title,asin,description
+Solar Panel,B0DZDDTFLZ,High-efficiency solar panel
+Portable Charger,B0DGJ1F2BG,Compact fast-charging power bank
+Compact Generator,B0768N9N6N,Portable solar generator for emergencies
+Camping Lantern,B0BJLDLYXP,Bright LED lantern for outdoor use
+Power Bank,B08ZJQ1XD4,Durable portable power bank
+

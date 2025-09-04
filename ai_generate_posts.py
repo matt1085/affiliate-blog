@@ -3,17 +3,16 @@ import csv
 import os
 from datetime import datetime
 import requests
-import json
+import time
 
 # Paths
 PRODUCTS_CSV = os.path.expanduser('~/affiliate-blog/products.csv')
 CATEGORIES_CSV = os.path.expanduser('~/affiliate-blog/categories.csv')
 CONTENT_DIR = os.path.expanduser('~/affiliate-blog/content/posts')
 
-# Make sure content dir exists
 os.makedirs(CONTENT_DIR, exist_ok=True)
 
-# Load categories (optional)
+# Load categories
 categories_dict = {}
 if os.path.exists(CATEGORIES_CSV):
     with open(CATEGORIES_CSV, newline='') as f:
@@ -22,48 +21,80 @@ if os.path.exists(CATEGORIES_CSV):
             categories_dict[row['asin']] = row.get('category', 'General')
 
 # Generate affiliate link
-def get_affiliate_link(asin, tag="matthewblog-20"):
-    return f"https://www.amazon.com/dp/{asin}?tag={tag}"
-
-# AI generation using Ollama
-def generate_ai_content(prompt):
-    url = "http://localhost:11434/api/generate"
-    data = {"model": "llama3:8b", "prompt": prompt}
-    response = requests.post(url, json=data)
-    if response.status_code == 200:
-        result_text = ''.join([r.get('response', '') for r in response.json() if 'response' in r])
-        return result_text.strip()
+AFFILIATE_TAG = "matthewblog-20"
+def get_affiliate_link(asin=None, url=None):
+    if asin:
+        return f"https://www.amazon.com/dp/{asin}?tag={AFFILIATE_TAG}"
+    elif url:
+        return url
     else:
-        print(f"[x] AI generation failed: {response.status_code} {response.text}")
-        return "AI content generation failed."
+        return "#"
 
-# Read products
+# AI generation with retries
+def generate_ai_content(prompt, retries=2):
+    for _ in range(retries + 1):
+        try:
+            response = requests.post("http://localhost:11434/api/generate", json={"model": "llama3:8b", "prompt": prompt})
+            if response.status_code == 200:
+                result_text = ''.join([r.get('response', '') for r in response.json() if 'response' in r])
+                if result_text.strip():
+                    return result_text.strip()
+        except Exception as e:
+            print(f"[x] AI request error: {e}")
+        print("[!] AI generation failed, retrying...")
+        time.sleep(1)
+    return "AI content generation failed."
+
+# Read products and generate posts
 with open(PRODUCTS_CSV, newline='') as f:
     reader = csv.DictReader(f)
     for row in reader:
-        asin = row['asin'] if 'asin' in row else row.get('url', '').split('/dp/')[1].split('?')[0]
-        post_file = os.path.join(CONTENT_DIR, f"{asin.lower()}.md")
+        asin = row.get('asin', None)
+        url = row.get('url', None)
 
-        # Skip duplicates
+        if not asin and url:
+            # Extract ASIN from URL if present
+            try:
+                asin = url.split("/dp/")[1].split("?")[0]
+            except IndexError:
+                asin = None
+
+        if not url:
+            url = get_affiliate_link(asin=asin)
+
+        title = row.get('title', f"Product {asin or 'Unknown'}")
+        category = categories_dict.get(asin, 'General')
+        post_file = os.path.join(CONTENT_DIR, f"{asin.lower() if asin else title.replace(' ','_')}.md")
+
         if os.path.exists(post_file):
             print(f"[i] Skipping existing post: {post_file}")
             continue
 
-        title = row.get('title', asin)
-        url = get_affiliate_link(asin)
-        category = categories_dict.get(asin, 'General')
+        # AI prompt
+        prompt = f"""
+Write a detailed 400-500 word blog post for '{title}'.
+Include:
+- Engaging introduction
+- Key benefits or features
+- Practical usage tips
+- Call-to-action linking to the product
+- Make it natural and friendly
+Include the product link at the end: [Buy {title}]({url})
+"""
 
-        # Prepare AI prompt
-        prompt = f"Write a 150-200 word blog post for {title}. Include an engaging intro, benefits, and mention this link: {url}. Keep it natural and friendly."
-
-        # Generate content
         content = generate_ai_content(prompt)
 
-        # Write Hugo Markdown
-        front_matter = f"---\ntitle: \"{title}\"\ndate: {datetime.now().isoformat()}\ncategories: [{category}]\n---\n\n"
+        # Hugo Markdown
+        front_matter = f"""---
+title: "{title}"
+date: {datetime.now().isoformat()}
+categories: ["{category}"]
+---
+"""
         post_body = f"{content}\n\n[Buy {title}]({url})\n"
 
         with open(post_file, 'w') as f_post:
             f_post.write(front_matter + post_body)
 
         print(f"[+] Generated post: {post_file}")
+

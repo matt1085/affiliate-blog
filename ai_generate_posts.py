@@ -22,6 +22,7 @@ if os.path.exists(CATEGORIES_CSV):
 
 # Generate affiliate link
 AFFILIATE_TAG = "matthewblog-20"
+
 def get_affiliate_link(asin=None, url=None):
     if asin:
         return f"https://www.amazon.com/dp/{asin}?tag={AFFILIATE_TAG}"

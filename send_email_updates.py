@@ -9,8 +9,8 @@ import time
 # -------------------------
 MAILERLITE_API_KEY = os.getenv("MAILERLITE_API_KEY")
 OLLAMA_MODEL = "llama3:8b"  # default AI model
-BLOG_URL = "https://yourblogdomain.com"  # replace with your blog URL
-MAILER_GROUP_ID = 12345678  # replace with your numeric MailerLite group ID
+BLOG_URL = "https://youractualblog.com"  # replace with your blog URL
+MAILER_GROUP_ID = 12345678  # replace with numeric group ID from step 1
 
 HEADERS = {
     "Content-Type": "application/json",
@@ -35,7 +35,6 @@ Keep it under 3 sentences, catchy and friendly.""",
     try:
         resp = requests.post(OLLAMA_API_URL, json=data, timeout=20)
         resp.raise_for_status()
-        # Ollama may return multiple JSON objects, parse safely
         try:
             chunks = resp.json()
         except ValueError:
@@ -65,7 +64,6 @@ for post_file in new_posts:
         content = f.read()
 
     summary = generate_summary(content)
-
     post_title = os.path.basename(post_file).replace(".md", "")
     post_url = f"{BLOG_URL}/{post_title}"
 
@@ -106,10 +104,10 @@ for post_file in new_posts:
         if send_resp.status_code in [200, 201]:
             print(f"[+] Email sent for {post_file}")
             os.rename(post_file, post_file.replace(".md", ".sent.md"))
-            # Sleep a little to avoid hitting rate limits
-            time.sleep(2)
+            time.sleep(2)  # avoid rate limits
         else:
             print(f"[!] Failed to send campaign for {post_file}: {send_resp.status_code} {send_resp.text}")
+
     except Exception as e:
         print(f"[!] Error processing {post_file}: {e}")
 

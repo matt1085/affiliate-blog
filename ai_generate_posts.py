@@ -10,6 +10,7 @@ PRODUCTS_CSV = os.path.expanduser('~/affiliate-blog/products.csv')
 CATEGORIES_CSV = os.path.expanduser('~/affiliate-blog/categories.csv')
 CONTENT_DIR = os.path.expanduser('~/affiliate-blog/content/posts')
 
+# Make sure content dir exists
 os.makedirs(CONTENT_DIR, exist_ok=True)
 
 # Load categories
@@ -20,10 +21,11 @@ if os.path.exists(CATEGORIES_CSV):
         for row in reader:
             categories_dict[row['asin']] = row.get('category', 'General')
 
-# Generate affiliate link
+# Affiliate tag
 AFFILIATE_TAG = "matthewblog-20"
 
 def get_affiliate_link(asin=None, url=None):
+    """Return affiliate link for ASIN, or original URL if no ASIN."""
     if asin:
         return f"https://www.amazon.com/dp/{asin}?tag={AFFILIATE_TAG}"
     elif url:
@@ -35,11 +37,13 @@ def get_affiliate_link(asin=None, url=None):
 def generate_ai_content(prompt, retries=2):
     for _ in range(retries + 1):
         try:
-            response = requests.post("http://localhost:11434/api/generate", json={"model": "llama3:8b", "prompt": prompt})
+            response = requests.post(
+                "http://localhost:11434/api/generate",
+                json={"model": "llama3:8b", "prompt": prompt, "stream": False}  # stream=False returns clean JSON
+            )
             if response.status_code == 200:
-                result_text = ''.join([r.get('response', '') for r in response.json() if 'response' in r])
-                if result_text.strip():
-                    return result_text.strip()
+                result = response.json()
+                return result.get("response", "").strip()
         except Exception as e:
             print(f"[x] AI request error: {e}")
         print("[!] AI generation failed, retrying...")
@@ -65,7 +69,10 @@ with open(PRODUCTS_CSV, newline='') as f:
 
         title = row.get('title', f"Product {asin or 'Unknown'}")
         category = categories_dict.get(asin, 'General')
-        post_file = os.path.join(CONTENT_DIR, f"{asin.lower() if asin else title.replace(' ','_')}.md")
+        post_file = os.path.join(
+            CONTENT_DIR,
+            f"{asin.lower() if asin else title.replace(' ','_')}.md"
+        )
 
         if os.path.exists(post_file):
             print(f"[i] Skipping existing post: {post_file}")

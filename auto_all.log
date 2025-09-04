@@ -1459,3 +1459,18 @@ Total in 61 ms
  3 files changed, 76 insertions(+), 113 deletions(-)
  rewrite send_email_updates.py (99%)
 fatal: could not read Password for 'https://matt1085@github.com': No such device or address
+Start building sites … 
+hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 BuildDate=2025-08-27T15:37:16Z VendorInfo=snap:0.149.0
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 37 
+ Paginator pages  │  1 
+ Non-page files   │  0 
+ Static files     │  1 
+ Processed images │  0 
+ Aliases          │  1 
+ Cleaned          │  0 
+
+Total in 74 ms

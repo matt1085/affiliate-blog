@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Smart Gear Reviews</title>
-    <link>https://affiliate-blog.netlify.app/tags/</link>
+    <link>http://localhost:37867/tags/</link>
     <description>Recent content in Tags on Smart Gear Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Sep 2025 02:00:00 +0000</lastBuildDate>
-    <atom:link href="https://affiliate-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:37867/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Battery</title>
-      <link>https://affiliate-blog.netlify.app/tags/battery/</link>
+      <link>http://localhost:37867/tags/battery/</link>
       <pubDate>Thu, 04 Sep 2025 02:00:00 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/battery/</guid>
+      <guid>http://localhost:37867/tags/battery/</guid>
       <description></description>
     </item>
     <item>
       <title>Outdoor</title>
-      <link>https://affiliate-blog.netlify.app/tags/outdoor/</link>
+      <link>http://localhost:37867/tags/outdoor/</link>
       <pubDate>Thu, 04 Sep 2025 02:00:00 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/outdoor/</guid>
+      <guid>http://localhost:37867/tags/outdoor/</guid>
       <description></description>
     </item>
     <item>
       <title>Review</title>
-      <link>https://affiliate-blog.netlify.app/tags/review/</link>
+      <link>http://localhost:37867/tags/review/</link>
       <pubDate>Thu, 04 Sep 2025 02:00:00 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/review/</guid>
+      <guid>http://localhost:37867/tags/review/</guid>
       <description></description>
     </item>
   </channel>

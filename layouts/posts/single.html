@@ -1,0 +1,105 @@
+{{ define "head" }}
+  {{ if .Params.featuredImage -}}
+    <style>.bg-img {background-image: url('{{ .Params.featuredImage | absURL }}');}</style>
+  {{- else if .Params.images -}}
+    {{- range first 1 .Params.images -}}
+      <style>.bg-img {background-image: url('{{ . | absURL }}');}</style>
+    {{- end -}}
+  {{- end }}
+{{ end }}
+
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{- if or .Params.featuredImage .Params.images }}
+    <div class="bg-img"></div>
+  {{- end }}
+
+  <main class="site-main section-inner animated fadeIn faster">
+    <article class="thin">
+      <header class="post-header">
+        <div class="post-meta">
+          <span>{{ .Date.Format (or .Site.Params.dateform "Jan 2, 2006") }}</span>
+        </div>
+        <h1>{{ .Title }}</h1>
+      </header>
+
+      {{ with .Params.featuredImage }}
+        <div class="post-featured-image">
+          <img src="{{ . | absURL }}" alt="{{ $.Title }}">
+        </div>
+      {{ else }}
+        <div class="post-featured-image">
+          <img src="/images/default.jpg" alt="{{ $.Title }}">
+        </div>
+      {{ end }}
+
+      <div class="content">
+        {{ .Content | replaceRE "(<h[1-6] id=\"([^\"]+)\".+)(</h[1-6]+>)" `${1}<a href="#${2}"></a>${3}` | safeHTML }}
+      </div>
+
+      {{- if .Site.Params.relatedPosts }}
+        {{- partial "related-posts.html" . -}}
+      {{- end }}
+
+      <hr class="post-end">
+
+      <footer class="post-info">
+        {{- with .Params.author }}
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"></svg>
+            {{ . }}
+          </p>
+        {{- end }}
+
+        {{- with .Params.tags }}
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"></svg>
+            {{- range . -}}
+              <span class="tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a></span>
+            {{- end }}
+          </p>
+        {{- end }}
+
+        {{- if and .GitInfo .Site.Params.gitUrl }}
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"></svg>
+            <a href="{{ printf "%s/commit/%s" .Site.Params.gitUrl .GitInfo.Hash }}">
+              {{ .GitInfo.AbbreviatedHash }}
+            </a>
+          </p>
+        {{- end }}
+      </footer>
+    </article>
+
+    {{- if .Params.toc }}
+      <aside id="toc">
+        <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+        {{ .TableOfContents }}
+      </aside>
+    {{- end }}
+
+    <div class="post-nav thin">
+      {{- with .NextInSection }}
+        <a class="next-post" href="{{ .Permalink }}">
+          <span class="post-nav-label">{{ i18n "newer" }}&nbsp;</span>
+          <span class="post-nav-title">{{ .Title }}</span>
+        </a>
+      {{- end }}
+
+      {{- with .PrevInSection }}
+        <a class="prev-post" href="{{ .Permalink }}">
+          <span class="post-nav-label">{{ i18n "older" }}&nbsp;</span>
+          <span class="post-nav-title">{{ .Title }}</span>
+        </a>
+      {{- end }}
+    </div>
+  </main>
+{{ end }}
+
+{{ define "footer" }}
+  {{ partialCached "footer.html" . }}
+{{ end }}
+

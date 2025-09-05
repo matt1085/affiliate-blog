@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/b09ww3ctf4.jpg"
 title = "Bluetti EB3A Portable Power Station"
 date = 2025-09-04
 draft = false
-+++
-
 date = 2025-09-04T22:30:02.235567
 categories = ["General"]
 

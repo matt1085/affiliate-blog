@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/b0bx9fcsqq.jpg"
 title = "Anker 625 Solar Panel (100W)"
 date = 2025-09-04
 draft = false
-+++
-
 date = 2025-09-04T22:29:39.571156
 categories = ["General"]
 

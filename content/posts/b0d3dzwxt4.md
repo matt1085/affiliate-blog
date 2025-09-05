@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/b0d3dzwxt4.jpg"
 title = "Renogy 100W N-Type Monocrystalline Solar Panel"
 date = 2025-09-04
 draft = false
-+++
-
 date = 2025-09-04T22:30:38.429527
 categories = ["General"]
 

@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/b0dzddtflz.jpg"
 title = "Untitled Product"
 date = 2025-09-04
 draft = false
-+++
-
 date = "2025-09-03T05:47:47Z"
 draft = false
 Title = Harness the Power of the Sun with Solar Panels!

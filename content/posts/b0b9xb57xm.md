@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/b0b9xb57xm.jpg"
 title = "EcoFlow Portable Power Station River 2 Max"
 date = 2025-09-04
 draft = false
-+++
-
 date = 2025-09-04T22:29:17.357727
 categories = ["General"]
 

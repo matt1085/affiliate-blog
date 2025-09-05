@@ -1,11 +1,14 @@
 +++
-title = "BigBlue 28W Solar Phone Charger"
+title = "b071g4cqsr"
+date = 2025-09-05T20:27:58
+categories = ["General"]
+featuredImage = "/images/b071g4cqsr.jpg"
+draft = false
++++
 date = 2025-09-04T22:30:25
 featuredImage = "/images/b071g4cqsr.jpg"
 categories = ["General"]
 draft = false
-+++
-
 As we increasingly rely on our devices to stay connected, it's easy to take for granted just how much power they require.
 
 **Key Benefits**

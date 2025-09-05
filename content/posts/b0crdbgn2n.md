@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/b0crdbgn2n.jpg"
 title = "Product B0CRDBGN2N"
 date = 2025-09-04
 draft = false
-+++
-
 date = 2025-09-04T22:33:16.319139
 categories = ["General"]
 

@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/my-post.jpg"
 title = "Untitled Product"
 date = 2025-09-04
 draft = false
-+++
-
 date = 2025-09-01
 Check out this product:
 

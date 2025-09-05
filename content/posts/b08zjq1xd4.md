@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/b08zjq1xd4.jpg"
 title = "Untitled Product"
 date = 2025-09-04
 draft = false
-+++
-
 date = "2025-09-03T05:48:16Z"
 draft = false
 Staying Charged in Today's Digital World: Why You Need a Power Bank

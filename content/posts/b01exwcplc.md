@@ -1,10 +1,6 @@
-+++
-featuredImage = "/images/b01exwcplc.jpg"
 title = "BigBlue 63W Foldable Solar Charger"
 date = 2025-09-04
 draft = false
-+++
-
 date = 2025-09-04T22:31:09.995396
 categories = ["General"]
 

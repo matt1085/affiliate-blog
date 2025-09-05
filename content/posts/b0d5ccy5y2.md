@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0d5ccy5y2.jpg"
 title = "Jackery SolarSaga 200W Portable Solar Panel"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Jackery SolarSaga 200W Portable Solar Panel"
-date: 2025-09-04T22:30:59.928521
-categories: ["General"]
+title = "Jackery SolarSaga 200W Portable Solar Panel"
+date = 2025-09-04T22:30:59.928521
+categories = ["General"]
 ---
 **Harnessing the Power of the Sun: Introducing the Jackery SolarSaga 200W Portable Solar Panel**
 

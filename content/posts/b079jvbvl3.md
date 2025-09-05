@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b079jvbvl3.jpg"
 title = "Product B079JVBVL3"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Renogy 100W Solar Suitcase with Controller"
-date: 2025-09-04T22:32:17.803640
-categories: ["General"]
+title = "Renogy 100W Solar Suitcase with Controller"
+date = 2025-09-04T22:32:17.803640
+categories = ["General"]
 ---
 **Empower Your Off-Grid Adventures with the Renogy 100W Solar Suitcase**
 

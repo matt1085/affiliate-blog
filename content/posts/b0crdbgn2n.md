@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0crdbgn2n.jpg"
 title = "Product B0CRDBGN2N"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Goal Zero Yeti 300 Solar Generator"
-date: 2025-09-04T22:33:16.319139
-categories: ["General"]
+title = "Goal Zero Yeti 300 Solar Generator"
+date = 2025-09-04T22:33:16.319139
+categories = ["General"]
 ---
 **Unleash the Power of Nature with the Goal Zero Yeti 300 Solar Generator**
 

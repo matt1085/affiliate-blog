@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b071g4cqsr.jpg"
 title = "BigBlue 28W Solar Phone Charger"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "BigBlue 28W Solar Phone Charger"
-date: 2025-09-04T22:30:25.296680
-categories: ["General"]
+title = "BigBlue 28W Solar Phone Charger"
+date = 2025-09-04T22:30:25.296680
+categories = ["General"]
 ---
 **Stay Powered Up with Nature's Help: Introducing the BigBlue 28W Solar Phone Charger**
 

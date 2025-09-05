@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0dgj1f2bg.jpg"
 title = "Untitled Product"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Portable Charger"
-date: "2025-09-03T05:47:55Z"
-draft: false
+title = "Portable Charger"
+date = "2025-09-03T05:47:55Z"
+draft = false
 ---
 
 **Stay Charged on the Go with the Ultimate Portable Power Bank!**

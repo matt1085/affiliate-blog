@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b09ww3ctf4.jpg"
 title = "Bluetti EB3A Portable Power Station"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Bluetti EB3A Portable Power Station"
-date: 2025-09-04T22:30:02.235567
-categories: ["General"]
+title = "Bluetti EB3A Portable Power Station"
+date = 2025-09-04T22:30:02.235567
+categories = ["General"]
 ---
 **The Ultimate Power Companion: Introducing the Bluetti EB3A Portable Power Station**
 

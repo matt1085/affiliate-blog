@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b08wwx5gtz.jpg"
 title = "Lichamp LED Camping Lanterns (4 Pack)"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Lichamp LED Camping Lanterns (4 Pack)"
-date: 2025-09-04T22:29:28.311276
-categories: ["General"]
+title = "Lichamp LED Camping Lanterns (4 Pack)"
+date = 2025-09-04T22:29:28.311276
+categories = ["General"]
 ---
 **Shine a Light on Your Next Adventure with Lichamp LED Camping Lanterns**
 

@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0bjdbqxq3.jpg"
 title = "Product B0BJDBQXQ3"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "BLAVOR Solar Power Bank 20"
-date: 2025-09-04T22:31:33.893464
-categories: ["General"]
+title = "BLAVOR Solar Power Bank 20"
+date = 2025-09-04T22:31:33.893464
+categories = ["General"]
 ---
 **Recharge Your World with BLAVOR Solar Power Bank 20**
 

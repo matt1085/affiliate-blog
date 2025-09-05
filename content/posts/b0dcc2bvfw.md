@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0dcc2bvfw.jpg"
 title = "Product B0DCC2BVFW"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "EcoFlow River 2 Pro Portable Power Station"
-date: 2025-09-04T22:33:52.091865
-categories: ["General"]
+title = "EcoFlow River 2 Pro Portable Power Station"
+date = 2025-09-04T22:33:52.091865
+categories = ["General"]
 ---
 **Introducing the EcoFlow River 2 Pro: The Ultimate Portable Power Companion**
 

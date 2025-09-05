@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0dxqqyf7x.jpg"
 title = "Product B0DXQQYF7X"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "BioLite SiteLight String Solar Rechargeable Lights"
-date: 2025-09-04T22:35:14.598458
-categories: ["General"]
+title = "BioLite SiteLight String Solar Rechargeable Lights"
+date = 2025-09-04T22:35:14.598458
+categories = ["General"]
 ---
 **Shine Bright, Off the Grid: Introducing BioLite's SiteLight String Solar Rechargeable Lights**
 

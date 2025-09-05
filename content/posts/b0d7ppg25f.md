@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0d7ppg25f.jpg"
 title = "Product B0D7PPG25F"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Jackery Explorer 1000 Plus Portable Power Station"
-date: 2025-09-04T22:32:42.103894
-categories: ["General"]
+title = "Jackery Explorer 1000 Plus Portable Power Station"
+date = 2025-09-04T22:32:42.103894
+categories = ["General"]
 ---
 **Empower Your Adventures with the Jackery Explorer 1000 Plus Portable Power Station**
 

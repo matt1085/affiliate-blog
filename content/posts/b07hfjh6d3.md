@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b07hfjh6d3.jpg"
 title = "Product B07HFJH6D3"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Goal Zero Crush Light Chroma Solar Lantern"
-date: 2025-09-04T22:34:14.591873
-categories: ["General"]
+title = "Goal Zero Crush Light Chroma Solar Lantern"
+date = 2025-09-04T22:34:14.591873
+categories = ["General"]
 ---
 **Shine a Light on Your Next Adventure with the Goal Zero Crush Light Chroma Solar Lantern**
 

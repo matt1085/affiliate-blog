@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b01exwcplc.jpg"
 title = "BigBlue 63W Foldable Solar Charger"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "BigBlue 63W Foldable Solar Charger"
-date: 2025-09-04T22:31:09.995396
-categories: ["General"]
+title = "BigBlue 63W Foldable Solar Charger"
+date = 2025-09-04T22:31:09.995396
+categories = ["General"]
 ---
 **Powering Your Adventures with BigBlue's Innovative Foldable Solar Charger**
 

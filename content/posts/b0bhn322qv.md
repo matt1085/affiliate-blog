@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0bhn322qv.jpg"
 title = "Product B0BHN322QV"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Rechargeable Portable LED Desk/Camping Lantern"
-date: 2025-09-04T22:34:38.097776
-categories: ["General"]
+title = "Rechargeable Portable LED Desk/Camping Lantern"
+date = 2025-09-04T22:34:38.097776
+categories = ["General"]
 ---
 **Lighting the Way to Adventure: Introducing Our Rechargeable Portable LED Desk/Camping Lantern**
 

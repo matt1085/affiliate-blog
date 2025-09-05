@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b075yrkvmh.jpg"
 title = "Product B075YRKVMH"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "ALLPOWERS 60W Foldable Solar Panel"
-date: 2025-09-04T22:31:55.959534
-categories: ["General"]
+title = "ALLPOWERS 60W Foldable Solar Panel"
+date = 2025-09-04T22:31:55.959534
+categories = ["General"]
 ---
 **Unlock the Power of the Sun with the ALLPOWERS 60W Foldable Solar Panel**
 

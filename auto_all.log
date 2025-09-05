@@ -2049,3 +2049,22 @@ ERROR render of "/home/elizabeth/affiliate-blog/content/posts/2025-09-05-0200-au
 ERROR render of "/home/elizabeth/affiliate-blog/content/posts/b001qc78qk.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site
 Total in 39 ms
 Error: error building site: render: failed to render pages: render of "/home/elizabeth/affiliate-blog/content/posts/2025-09-01-auto-post.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site
+[main e221455] Automated update: 2025-09-05 17:00:01
+ 2 files changed, 14 insertions(+)
+To https://github.com/matt1085/affiliate-blog.git
+   0290627..e221455  main -> main
+Start building sites … 
+hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 BuildDate=2025-08-27T15:37:16Z VendorInfo=snap:0.149.0
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 72 
+ Paginator pages  │  0 
+ Non-page files   │  0 
+ Static files     │ 12 
+ Processed images │  0 
+ Aliases          │  0 
+ Cleaned          │  0 
+
+Total in 45 ms

@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0bx9fcsqq.jpg"
 title = "Anker 625 Solar Panel (100W)"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Anker 625 Solar Panel (100W)"
-date: 2025-09-04T22:29:39.571156
-categories: ["General"]
+title = "Anker 625 Solar Panel (100W)"
+date = 2025-09-04T22:29:39.571156
+categories = ["General"]
 ---
 **Harness the Power of the Sun with Anker's 625 Solar Panel (100W)**
 

@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0f42csqwg.jpg"
 title = "BLUETTI Elite 100 V2 (2025 New) Solar Generator, 1024Wh LFP Battery Backup w/ 4 1800W AC Outlets (3600W Surge), 35% Smaller, Portable Power for Camping, Outages, and UPS Backup (Solar Panel Optional)"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Bluetti AC200P Elite V2 Solar Generator"
-date: 2025-09-04T22:32:53.104457
-categories: ["General"]
+title = "Bluetti AC200P Elite V2 Solar Generator"
+date = 2025-09-04T22:32:53.104457
+categories = ["General"]
 ---
 **Powering Your Adventures: Introducing the Bluetti AC200P Elite V2 Solar Generator**
 

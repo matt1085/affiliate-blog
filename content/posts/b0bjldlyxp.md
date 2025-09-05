@@ -1,13 +1,14 @@
 +++
+featuredImage = "/images/b0bjldlyxp.jpg"
 title = "Untitled Product"
 date = 2025-09-04
 draft = false
 +++
 
 ---
-title: "Camping Lantern"
-date: "2025-09-03T05:48:09Z"
-draft: false
+title = "Camping Lantern"
+date = "2025-09-03T05:48:09Z"
+draft = false
 ---
 
 "Light Up Your Next Camping Adventure with Our Top-Pick Camping Lantern!"

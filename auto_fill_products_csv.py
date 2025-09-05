@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import re
 import time
 from datetime import datetime
-from ai_generate_posts import generate_post_for_product  # import your AI generator function
+from ai_generate_posts import generate_post_for_product  # your AI function
 
 # Paths
 PRODUCTS_CSV = os.path.expanduser('~/affiliate-blog/products.csv')
@@ -54,7 +54,8 @@ AMAZON_URLS = [
     "https://www.amazon.com/BioLite-String-Rechargeable-Camping-44-Foot/dp/B0DXQQYF7X/"
 ]
 
-# Keyword-based category mapping
+
+# Category mapping
 CATEGORY_KEYWORDS = {
     'Lantern': 'Camping',
     'Solar': 'Solar Power',
@@ -63,22 +64,25 @@ CATEGORY_KEYWORDS = {
     'Charger': 'Electronics',
 }
 
-# Helper: extract ASIN
+FIELDNAMES = ["asin", "title", "category", "url"]
+
+# --- Helpers ---
 def extract_asin(url):
+    """Extract ASIN from Amazon URL"""
     try:
         return re.search(r'/dp/([A-Z0-9]{10})', url).group(1)
     except:
         return None
 
-# Helper: determine category
 def get_category(title):
+    """Detect category based on keywords"""
     for keyword, cat in CATEGORY_KEYWORDS.items():
         if keyword.lower() in title.lower():
             return cat
-    return 'General'
+    return "General"
 
-# Helper: scrape Amazon title with retries
 def scrape_amazon_title(url, retries=3, delay=2):
+    """Scrape Amazon product title with retries"""
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     for attempt in range(retries):
         try:
@@ -95,7 +99,7 @@ def scrape_amazon_title(url, retries=3, delay=2):
         time.sleep(delay)
     return None
 
-# Load existing products to avoid duplicates
+# --- Load existing products ---
 existing_products = {}
 if os.path.exists(PRODUCTS_CSV):
     with open(PRODUCTS_CSV, newline='') as f:
@@ -103,7 +107,7 @@ if os.path.exists(PRODUCTS_CSV):
         for row in reader:
             existing_products[row['asin']] = row
 
-# Build products list
+# --- Build products list ---
 products = []
 for url in AMAZON_URLS:
     asin = extract_asin(url)
@@ -126,22 +130,24 @@ for url in AMAZON_URLS:
     }
     products.append(product)
     print(f"[✓] Added product: {title} ({asin})")
-    time.sleep(1)  # avoid rapid requests
+    time.sleep(1)  # polite pause
 
-# Write products.csv
+# --- Write products.csv safely ---
 with open(PRODUCTS_CSV, 'w', newline='') as f:
-    writer = csv.DictWriter(f, fieldnames=["asin", "title", "category", "url"])
+    writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
     writer.writeheader()
     for p in products:
-        writer.writerow(p)
+        clean_dict = {k: p.get(k, "") for k in FIELDNAMES}
+        writer.writerow(clean_dict)
+
 print(f"[✓] products.csv updated with {len(products)} products")
 
-# Generate AI posts for new products
+# --- Generate AI posts for new products ---
 for product in products:
     post_file = os.path.join(CONTENT_DIR, f"{product['asin'].lower()}.md")
     if os.path.exists(post_file):
         print(f"[i] Skipping existing post: {post_file}")
         continue
     print(f"[>] Generating AI post for {product['title']}")
-    generate_post_for_product(product)  # your AI generator handles writing the markdown
-    time.sleep(1)  # avoid overwhelming the AI API
+    generate_post_for_product(product)  # AI handles writing markdown
+    time.sleep(1)  # avoid overwhelming AI API

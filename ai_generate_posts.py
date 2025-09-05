@@ -4,13 +4,12 @@ import os
 from datetime import datetime
 import requests
 import time
+import re
 
 # Paths
 PRODUCTS_CSV = os.path.expanduser('~/affiliate-blog/products.csv')
 CATEGORIES_CSV = os.path.expanduser('~/affiliate-blog/categories.csv')
 CONTENT_DIR = os.path.expanduser('~/affiliate-blog/content/posts')
-
-# Make sure content dir exists
 os.makedirs(CONTENT_DIR, exist_ok=True)
 
 # Load categories
@@ -33,9 +32,9 @@ def get_affiliate_link(asin=None, url=None):
     else:
         return "#"
 
-def generate_ai_content(prompt, retries=2, wait=1):
+def generate_ai_content(prompt, retries=3, wait=1):
     """Generate AI content using local LLaMA API with retry logic."""
-    for _ in range(retries + 1):
+    for attempt in range(retries):
         try:
             response = requests.post(
                 "http://localhost:11434/api/generate",
@@ -46,24 +45,23 @@ def generate_ai_content(prompt, retries=2, wait=1):
                 return result.get("response", "").strip()
         except Exception as e:
             print(f"[x] AI request error: {e}")
-        print("[!] AI generation failed, retrying...")
+        print(f"[!] AI generation failed (attempt {attempt+1}/{retries}), retrying...")
         time.sleep(wait)
     return "AI content generation failed."
+
+def safe_filename(name):
+    """Convert title to safe filename for Markdown."""
+    return re.sub(r'[^a-zA-Z0-9_-]', '_', name.replace(' ', '_')).lower()
 
 def generate_post_for_product(product):
     """Generate a blog post for a single product dictionary."""
     asin = product.get('asin')
-    url = product.get('url')
+    url = product.get('url') or get_affiliate_link(asin=asin)
     title = product.get('title', f"Product {asin or 'Unknown'}")
     category = product.get('category', categories_dict.get(asin, 'General'))
 
-    if not url:
-        url = get_affiliate_link(asin=asin)
-
-    post_file = os.path.join(
-        CONTENT_DIR,
-        f"{asin.lower() if asin else title.replace(' ','_')}.md"
-    )
+    filename = safe_filename(asin or title)
+    post_file = os.path.join(CONTENT_DIR, f"{filename}.md")
 
     if os.path.exists(post_file):
         print(f"[i] Skipping existing post: {post_file}")
@@ -94,7 +92,7 @@ categories: ["{category}"]
 
     print(f"[+] Generated post: {post_file}")
 
-# Optional: run standalone for all products in CSV
+# Optional standalone run
 if __name__ == "__main__":
     if os.path.exists(PRODUCTS_CSV):
         with open(PRODUCTS_CSV, newline='') as f:

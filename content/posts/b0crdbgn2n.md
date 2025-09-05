@@ -1,3 +1,9 @@
++++
+title = "Product B0CRDBGN2N"
+date = 2025-09-04
+draft = false
++++
+
 ---
 title: "Goal Zero Yeti 300 Solar Generator"
 date: 2025-09-04T22:33:16.319139

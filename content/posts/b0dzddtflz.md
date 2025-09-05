@@ -1,3 +1,9 @@
++++
+title = "Untitled Product"
+date = 2025-09-04
+draft = false
++++
+
 ---
 title: "Solar Panel"
 date: "2025-09-03T05:47:47Z"

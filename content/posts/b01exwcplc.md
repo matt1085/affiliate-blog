@@ -1,3 +1,9 @@
++++
+title = "BigBlue 63W Foldable Solar Charger"
+date = 2025-09-04
+draft = false
++++
+
 ---
 title: "BigBlue 63W Foldable Solar Charger"
 date: 2025-09-04T22:31:09.995396

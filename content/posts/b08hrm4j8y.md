@@ -1,3 +1,9 @@
++++
+title = "Lighthouse 600 Multi Functional Adjustable Light Perfect for Camping, Outdoor Events, or Emergency use Lumens USB Charging of Phones and Small Devices Long-Lasting Lithium Battery."
+date = 2025-09-04
+draft = false
++++
+
 ---
 title: "Goal Zero Lighthouse 600 Lantern & USB Power Hub"
 date: 2025-09-04T22:34:04.374747

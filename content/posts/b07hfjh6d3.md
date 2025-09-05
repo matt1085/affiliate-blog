@@ -1,3 +1,9 @@
++++
+title = "Product B07HFJH6D3"
+date = 2025-09-04
+draft = false
++++
+
 ---
 title: "Goal Zero Crush Light Chroma Solar Lantern"
 date: 2025-09-04T22:34:14.591873

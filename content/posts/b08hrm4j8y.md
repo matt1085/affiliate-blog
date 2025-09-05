@@ -1,11 +1,14 @@
 +++
 title = "b08hrm4j8y"
-date = 2025-09-05T20:27:58
+date = 2025-09-05T20:46:55
 categories = ["General"]
 featuredImage = "/images/b08hrm4j8y.jpg"
 draft = false
 +++
-date = 2025-09-04T22:34:04
+date = 2025-09-05T20:27:58
+categories = ["General"]
+featuredImage = "/images/b08hrm4j8y.jpg"
+draft = false
 categories = ["General"]
 featuredImage = "/images/b08hrm4j8y.jpg"
 draft = false

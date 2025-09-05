@@ -1900,3 +1900,35 @@ ERROR render of "/home/elizabeth/affiliate-blog/content/posts/2025-09-05-0200-au
 ERROR render of "/home/elizabeth/affiliate-blog/content/posts/b075mgl7r8.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site
 Total in 36 ms
 Error: error building site: render: failed to render pages: render of "/home/elizabeth/affiliate-blog/content/posts/b01exwcplc.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site
+[main b327c4e] Automated update: 2025-09-05 07:00:02
+ 23 files changed, 1074 insertions(+), 485 deletions(-)
+ delete mode 100644 .config.toml.swp
+ create mode 100644 layouts/partials/analytics.html
+ rewrite public/404.html (80%)
+ create mode 100644 public/android-chrome-192x192.png
+ create mode 100644 public/android-chrome-384x384.png
+ create mode 100644 public/apple-touch-icon.png
+ create mode 100644 public/browserconfig.xml
+ create mode 100644 public/css/custom.css
+ create mode 100644 public/css/style.min.e6b6720a93ce7e80b01575e81912285b599cab4c07d4bed9d31635cec0fb1277.css
+ create mode 100644 public/favicon-16x16.png
+ create mode 100644 public/favicon-32x32.png
+ create mode 100644 public/favicon.ico
+ rewrite public/index.html (85%)
+ create mode 100644 public/js/bundle.min.580988ed2982bcbb74a1773c7abea97b43e4c43b9324e10cda0813ec6ec4bb67.js
+ create mode 100644 public/mstile-150x150.png
+ create mode 100644 public/safari-pinned-tab.svg
+ create mode 100644 public/site.webmanifest
+ create mode 100644 resources/_gen/assets/scss/style.scss_9456d1c6c89668c9bbd4d7e616654b14.content
+ create mode 100644 resources/_gen/assets/scss/style.scss_9456d1c6c89668c9bbd4d7e616654b14.json
+To https://github.com/matt1085/affiliate-blog.git
+   c02348e..b327c4e  main -> main
+Start building sites … 
+hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 BuildDate=2025-08-27T15:37:16Z VendorInfo=snap:0.149.0
+
+ERROR render of "/home/elizabeth/affiliate-blog/content/posts/2025-09-01-1725-auto-post.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site
+ERROR render of "/home/elizabeth/affiliate-blog/content/posts/2025-09-02-0200-auto-post.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site
+ERROR render of "/home/elizabeth/affiliate-blog/content/posts/2025-09-04-0200-auto-post.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site
+ERROR render of "/home/elizabeth/affiliate-blog/content/posts/b075yrkvmh.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site
+Total in 47 ms
+Error: error building site: render: failed to render pages: render of "/home/elizabeth/affiliate-blog/content/posts/2025-09-01-auto-post.md" failed: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/posts/single.html:70:6": execute of template failed: template: posts/single.html:70:6: executing "main" at <partial "comments.html" .>: error calling partial: "/home/elizabeth/affiliate-blog/themes/hermit/layouts/partials/comments.html:1:12": execute of template failed: template: _partials/comments.html:1:12: executing "_partials/comments.html" at <.Site.DisqusShortname>: can't evaluate field DisqusShortname in type page.Site

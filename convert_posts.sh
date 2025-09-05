@@ -3,18 +3,21 @@
 cd ~/affiliate-blog/content/posts || exit
 
 for file in *.md; do
-  # Detect YAML front matter
+  echo "Processing $file …"
+
+  # Detect YAML front matter (---) and convert to TOML (+++)
   if head -n 1 "$file" | grep -q "^---"; then
-    # Convert YAML (---) to TOML (+++)
+    # Replace first --- with +++
     sed -i '1s/^---$/+++/g' "$file"
-    # Convert end of front matter
+    # Replace ending --- with +++ (assume it’s the first --- after line 1)
     awk 'NR==1{print;next} /^---$/{print "+++";exit} {print}' "$file" > tmpfrontmatter
-    # Extract rest of file
     tail -n +$(($(grep -n "^---" "$file" | tail -1 | cut -d: -f1)+1)) "$file" > tmpcontent
-    # Merge back
     cat tmpfrontmatter tmpcontent > tmpfile && mv tmpfile "$file"
     rm tmpfrontmatter tmpcontent
   fi
+
+  # Remove any leftover YAML blocks (---) after TOML
+  sed -i '/^---$/,+1d' "$file"
 
   # Fix key: value -> key = value in TOML
   sed -i 's/^\([a-zA-Z0-9_]*\):[ ]*\(.*\)$/\1 = \2/' "$file"
@@ -27,3 +30,4 @@ for file in *.md; do
 done
 
 echo "All posts converted to TOML and featured images added!"
+

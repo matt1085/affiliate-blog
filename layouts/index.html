@@ -2,12 +2,20 @@
   <h1>{{ .Title }}</h1>
   <p>{{ .Content }}</p>
 
-  <ul>
-  {{ range .Site.RegularPages }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <p>{{ .Summary }}</p>
-    </li>
-  {{ end }}
-  </ul>
+  <div class="products-grid">
+    {{ range .Site.RegularPages }}
+      <div class="product-card">
+        <a href="{{ .RelPermalink }}">
+          {{ with .Params.featured_image }}
+            <img src="{{ . }}" alt="{{ $.Title }}">
+          {{ end }}
+          <h2>{{ .Title }}</h2>
+        </a>
+        <p>{{ .Summary }}</p>
+        {{ with .Params.affiliate_link }}
+          <p><a class="buy-button" href="{{ . }}" target="_blank">Buy Now</a></p>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
 {{ end }}

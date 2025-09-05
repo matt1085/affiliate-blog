@@ -1857,3 +1857,21 @@ hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 Buil
 
 Total in 22 ms
 Error: error building site: html/template:_partials/analytics.html:1:12: no such template "_internal/google_analytics_async.html"
+[main fe9e092] Automated update: 2025-09-05 04:00:01
+ 68 files changed, 2988 insertions(+), 2260 deletions(-)
+ create mode 100644 .config.toml.swp
+ create mode 100644 add_front_matter.py
+ rewrite public/categories/index.xml (70%)
+ rewrite public/index.xml (94%)
+ create mode 100644 public/posts/first/index.html
+ create mode 100644 public/posts/goal-zero-crush-light/index.html
+ rewrite public/posts/index.xml (94%)
+ rewrite public/sitemap.xml (87%)
+ rewrite public/tags/index.xml (80%)
+To https://github.com/matt1085/affiliate-blog.git
+   ff5ba6b..fe9e092  main -> main
+Start building sites … 
+hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 BuildDate=2025-08-27T15:37:16Z VendorInfo=snap:0.149.0
+
+Total in 23 ms
+Error: error building site: html/template:_partials/analytics.html:1:12: no such template "_internal/google_analytics_async.html"

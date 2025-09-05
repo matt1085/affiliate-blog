@@ -1,8 +1,11 @@
 baseURL = "https://affiliate-blog.netlify.app/"
 languageCode = "en-us"
 title = "Smart Gear Reviews"
-theme = "hugo-bearblog"
+theme = "hermit"
 
 [params]
-  description = "Expert reviews, guides, and top picks for outdoor gear, power stations, and smart home essentials"
+  description = "Expert reviews, guides, and top picks for outdoor gear, power stations, and smart home essentials — helping you choose the best products."
+  showReadingTime = true
+  showCategories = true
+  showTags = true
 

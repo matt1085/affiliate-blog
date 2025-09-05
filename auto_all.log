@@ -1875,3 +1875,15 @@ hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 Buil
 
 Total in 23 ms
 Error: error building site: html/template:_partials/analytics.html:1:12: no such template "_internal/google_analytics_async.html"
+[main f9be784] Automated update: 2025-09-05 05:00:01
+ 8 files changed, 94 insertions(+), 16 deletions(-)
+ create mode 100755 add_front_matter.sh
+ rewrite layouts/index.html (66%)
+ create mode 100644 static/css/custom.css
+To https://github.com/matt1085/affiliate-blog.git
+   0c7b8b6..f9be784  main -> main
+Start building sites … 
+hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 BuildDate=2025-08-27T15:37:16Z VendorInfo=snap:0.149.0
+
+Total in 19 ms
+Error: error copying static files: html/template:_partials/analytics.html:1:12: no such template "_internal/google_analytics_async.html"

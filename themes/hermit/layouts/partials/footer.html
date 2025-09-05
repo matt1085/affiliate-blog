@@ -1,0 +1,13 @@
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+    <p>&copy; {{ now.Format "2006" }} 
+        <a href="{{ .Site.BaseURL }}">{{ with .Site.Author.name }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</a>
+    </p>
+    <p>
+        Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 
+        &#183; Theme <a href="https://themes.gohugo.io/themes/hermit/" target="_blank" rel="noopener">Hermit</a>
+        {{- if not (in site.Params.disableKinds "RSS") }} &#183; 
+            <a href="{{ "index.xml" | relURL }}">RSS</a>
+        {{- end }}
+    </p>
+</footer>
+

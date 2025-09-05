@@ -4,6 +4,3 @@
 [submodule "themes/hugo-bearblog"]
 	path = themes/hugo-bearblog
 	url = https://github.com/janraasch/hugo-bearblog.git
-[submodule "themes/hermit"]
-	path = themes/hermit
-	url = https://github.com/Track3/hermit.git

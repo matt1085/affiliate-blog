@@ -8,4 +8,4 @@ theme = "hermit"
   showReadingTime = true
   showCategories = true
   showTags = true
-
+  googleAnalytics = "UA-000000-0"

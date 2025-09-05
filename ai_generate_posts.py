@@ -33,13 +33,13 @@ def get_affiliate_link(asin=None, url=None):
     else:
         return "#"
 
-# AI generation with retries
-def generate_ai_content(prompt, retries=2):
+def generate_ai_content(prompt, retries=2, wait=1):
+    """Generate AI content using local LLaMA API with retry logic."""
     for _ in range(retries + 1):
         try:
             response = requests.post(
                 "http://localhost:11434/api/generate",
-                json={"model": "llama3:8b", "prompt": prompt, "stream": False}  # stream=False returns clean JSON
+                json={"model": "llama3:8b", "prompt": prompt, "stream": False}
             )
             if response.status_code == 200:
                 result = response.json()
@@ -47,39 +47,29 @@ def generate_ai_content(prompt, retries=2):
         except Exception as e:
             print(f"[x] AI request error: {e}")
         print("[!] AI generation failed, retrying...")
-        time.sleep(1)
+        time.sleep(wait)
     return "AI content generation failed."
 
-# Read products and generate posts
-with open(PRODUCTS_CSV, newline='') as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        asin = row.get('asin', None)
-        url = row.get('url', None)
+def generate_post_for_product(product):
+    """Generate a blog post for a single product dictionary."""
+    asin = product.get('asin')
+    url = product.get('url')
+    title = product.get('title', f"Product {asin or 'Unknown'}")
+    category = product.get('category', categories_dict.get(asin, 'General'))
 
-        if not asin and url:
-            # Extract ASIN from URL if present
-            try:
-                asin = url.split("/dp/")[1].split("?")[0]
-            except IndexError:
-                asin = None
+    if not url:
+        url = get_affiliate_link(asin=asin)
 
-        if not url:
-            url = get_affiliate_link(asin=asin)
+    post_file = os.path.join(
+        CONTENT_DIR,
+        f"{asin.lower() if asin else title.replace(' ','_')}.md"
+    )
 
-        title = row.get('title', f"Product {asin or 'Unknown'}")
-        category = categories_dict.get(asin, 'General')
-        post_file = os.path.join(
-            CONTENT_DIR,
-            f"{asin.lower() if asin else title.replace(' ','_')}.md"
-        )
+    if os.path.exists(post_file):
+        print(f"[i] Skipping existing post: {post_file}")
+        return
 
-        if os.path.exists(post_file):
-            print(f"[i] Skipping existing post: {post_file}")
-            continue
-
-        # AI prompt
-        prompt = f"""
+    prompt = f"""
 Write a detailed 400-500 word blog post for '{title}'.
 Include:
 - Engaging introduction
@@ -89,20 +79,26 @@ Include:
 - Make it natural and friendly
 Include the product link at the end: [Buy {title}]({url})
 """
+    content = generate_ai_content(prompt)
 
-        content = generate_ai_content(prompt)
-
-        # Hugo Markdown
-        front_matter = f"""---
+    front_matter = f"""---
 title: "{title}"
 date: {datetime.now().isoformat()}
 categories: ["{category}"]
 ---
 """
-        post_body = f"{content}\n\n[Buy {title}]({url})\n"
+    post_body = f"{content}\n\n[Buy {title}]({url})\n"
 
-        with open(post_file, 'w') as f_post:
-            f_post.write(front_matter + post_body)
+    with open(post_file, 'w') as f_post:
+        f_post.write(front_matter + post_body)
 
-        print(f"[+] Generated post: {post_file}")
+    print(f"[+] Generated post: {post_file}")
+
+# Optional: run standalone for all products in CSV
+if __name__ == "__main__":
+    if os.path.exists(PRODUCTS_CSV):
+        with open(PRODUCTS_CSV, newline='') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                generate_post_for_product(row)
 

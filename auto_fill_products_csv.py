@@ -1,59 +1,147 @@
 #!/usr/bin/env python3
 import csv
+import os
 import requests
 from bs4 import BeautifulSoup
-import os
+import re
+import time
+from datetime import datetime
+from ai_generate_posts import generate_post_for_product  # import your AI generator function
 
+# Paths
 PRODUCTS_CSV = os.path.expanduser('~/affiliate-blog/products.csv')
+CONTENT_DIR = os.path.expanduser('~/affiliate-blog/content/posts')
+os.makedirs(CONTENT_DIR, exist_ok=True)
 
-def extract_asin_title_category(url):
-    """Scrape Amazon product page for ASIN, title, and category"""
+# Affiliate tag
+AFFILIATE_TAG = "matthewblog-20"
+
+# Amazon URL list (can also load from a file)
+AMAZON_URLS = [
+    "https://www.amazon.com/Goal-Zero-Crush-Powered-Lantern/dp/B07BMJPH8L/",
+    "https://www.amazon.com/Jackery-Portable-Explorer-Generator-Optional/dp/B082TMBYR6/",
+    "https://www.amazon.com/EF-ECOFLOW-Portable-Charging-Generator/dp/B0B9XB57XM/",
+    "https://www.amazon.com/Lichamp-Lanterns-Collapsible-Flashlight-Emergency/dp/B08WWX5GTZ/",
+    "https://www.amazon.com/Anker-Foldable-Resistance-Ultra-Fast-Activities/dp/B0BX9FCSQQ/",
+    "https://www.amazon.com/LuminAID-PackLite-Solar-Inflatable-Waterproof/dp/B0716JV1SG/",
+    "https://www.amazon.com/BLUETTI-Portable-EB3A-Recharge-Generator/dp/B09WW3CTF4/",
+    "https://www.amazon.com/Black-Diamond-Equipment-Lantern-Graphite/dp/B09NQL39X5/",
+    "https://www.amazon.com/BigBlue-Charger-Digital-Waterproof-Foldable/dp/B071G4CQSR/",
+    "https://www.amazon.com/Renogy-N-Type-16BB-Solar-Panel/dp/B0D3DZWXT4/",
+    "https://www.amazon.com/Belkin-Portable-Charger-Output-Included/dp/B09NTNTVRJ/",
+    "https://www.amazon.com/Jackery-SolarSaga-Bifacial-Portable-Explorer/dp/B0D5CCY5Y2/",
+    "https://www.amazon.com/BigBlue-Foldable-Waterproof-SunPower-Cellphones/dp/B01EXWCPLC/",
+    "https://www.amazon.com/Portable-Station-Foldable-Off-Grid-Monocrystalline/dp/B09W2CFT61/",
+    "https://www.amazon.com/BLAVOR-Portable-Waterproof-Compatible-Backpacking/dp/B0BJDBQXQ3/",
+    "https://www.amazon.com/FlexSolar-Portable-Waterproof-Foldable-Compatible/dp/B09H6GGK55/",
+    "https://www.amazon.com/ALLPOWERS-Charger-Technology-Portable-Notebooks/dp/B075YRKVMH/",
+    "https://www.amazon.com/Portable-Foldable-Efficiency-Dustproof-Backyard/dp/B0B7KY3D15/",
+    "https://www.amazon.com/Renogy-Monocrystalline-Foldable-Waterproof-Controller/dp/B079JVBVL3/",
+    "https://www.amazon.com/25000mAh-Hiluckey-Portable-Waterproof-Smartphones/dp/B07H8CM4F1/",
+    "https://www.amazon.com/Jackery-Explorer-Portable-Generator-Emergency/dp/B0D7PPG25F/",
+    "https://www.amazon.com/BLUETTI-Elite-100-V2-Generator/dp/B0F42CSQWG/",
+    "https://www.amazon.com/Jackery-Explorer-Generator-Traveling-Emergencies/dp/B0CHVYPYD8/",
+    "https://www.amazon.com/Goal-Zero-resistant-Dustproof-Tailgating/dp/B0CRDBGN2N/",
+    "https://www.amazon.com/Anker-Generator-Portable-Batteries-Technology/dp/B0CBB6HFMM/",
+    "https://www.amazon.com/EF-ECOFLOW-3600-4500W-Generator-Emergencies/dp/B0C1Z4GLKS/",
+    "https://www.amazon.com/EF-ECOFLOW-Portable-Generator-Optional/dp/B0DCC2BVFW/",
+    "https://www.amazon.com/Lighthouse-Functional-Adjustable-Emergency-Long-Lasting/dp/B08HRM4J8Y/",
+    "https://www.amazon.com/Goal-Zero-Chroma-Powered-Lantern/dp/B07HFJH6D3/",
+    "https://www.amazon.com/UST-30-Day-Lumen-Lantern-Titanium/dp/B07Q416Q8Z/",
+    "https://www.amazon.com/Rechargeable-Portable-Cordless-Dimmable-Detachable/dp/B0BHN322QV/",
+    "https://www.amazon.com/Primus-Micron-Lantern-Steel-Ignition/dp/B001QC78QK/",
+    "https://www.amazon.com/Goal-Zero-Lighthouse-Flashlight-Recharger/dp/B075MGL7R8/",
+    "https://www.amazon.com/BioLite-String-Rechargeable-Camping-44-Foot/dp/B0DXQQYF7X/"
+]
+
+# Keyword-based category mapping
+CATEGORY_KEYWORDS = {
+    'Lantern': 'Camping',
+    'Solar': 'Solar Power',
+    'Generator': 'Generators',
+    'Power Bank': 'Electronics',
+    'Charger': 'Electronics',
+}
+
+# Helper: extract ASIN
+def extract_asin(url):
     try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        r = requests.get(url, headers=headers, timeout=5)
-        soup = BeautifulSoup(r.text, "html.parser")
+        return re.search(r'/dp/([A-Z0-9]{10})', url).group(1)
+    except:
+        return None
 
-        # Title
-        title_tag = soup.find(id="productTitle")
-        title = title_tag.get_text(strip=True) if title_tag else "Unknown Product"
+# Helper: determine category
+def get_category(title):
+    for keyword, cat in CATEGORY_KEYWORDS.items():
+        if keyword.lower() in title.lower():
+            return cat
+    return 'General'
 
-        # ASIN
+# Helper: scrape Amazon title with retries
+def scrape_amazon_title(url, retries=3, delay=2):
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    for attempt in range(retries):
         try:
-            asin = url.split("/dp/")[1].split("?")[0]
-        except IndexError:
-            asin = None
+            r = requests.get(url, headers=headers, timeout=5)
+            if r.status_code == 200:
+                soup = BeautifulSoup(r.text, 'html.parser')
+                title_tag = soup.find(id='productTitle')
+                if title_tag:
+                    return title_tag.get_text(strip=True)
+            else:
+                print(f"[!] Request failed ({r.status_code}) for {url}")
+        except Exception as e:
+            print(f"[!] Exception scraping {url}: {e}")
+        time.sleep(delay)
+    return None
 
-        # Category (from breadcrumb)
-        category = "General"
-        breadcrumb = soup.select("#wayfinding-breadcrumbs_feature_div ul li a")
-        if breadcrumb:
-            category = breadcrumb[-1].get_text(strip=True)
+# Load existing products to avoid duplicates
+existing_products = {}
+if os.path.exists(PRODUCTS_CSV):
+    with open(PRODUCTS_CSV, newline='') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            existing_products[row['asin']] = row
 
-        return asin, title, category
-    except Exception as e:
-        print(f"[x] Failed to fetch {url}: {e}")
-        return None, "Unknown Product", "General"
+# Build products list
+products = []
+for url in AMAZON_URLS:
+    asin = extract_asin(url)
+    if not asin:
+        print(f"[!] Could not extract ASIN from {url}")
+        continue
 
-# Read CSV and update missing info
-rows = []
-with open(PRODUCTS_CSV, newline='', encoding='utf-8') as f:
-    reader = csv.DictReader(f)
-    fieldnames = reader.fieldnames
-    for row in reader:
-        url = row.get('url')
-        if url:
-            if not row.get('asin') or not row.get('title') or not row.get('category'):
-                asin, title, category = extract_asin_title_category(url)
-                if asin: row['asin'] = asin
-                if title: row['title'] = title
-                if category: row['category'] = category
-        rows.append(row)
+    if asin in existing_products:
+        print(f"[i] Skipping existing product: {asin}")
+        products.append(existing_products[asin])
+        continue
 
-# Write updated CSV
-with open(PRODUCTS_CSV, 'w', newline='', encoding='utf-8') as f:
-    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    title = scrape_amazon_title(url) or f"Product {asin}"
+    category = get_category(title)
+    product = {
+        "asin": asin,
+        "title": title,
+        "category": category,
+        "url": url
+    }
+    products.append(product)
+    print(f"[✓] Added product: {title} ({asin})")
+    time.sleep(1)  # avoid rapid requests
+
+# Write products.csv
+with open(PRODUCTS_CSV, 'w', newline='') as f:
+    writer = csv.DictWriter(f, fieldnames=["asin", "title", "category", "url"])
     writer.writeheader()
-    writer.writerows(rows)
+    for p in products:
+        writer.writerow(p)
+print(f"[✓] products.csv updated with {len(products)} products")
 
-print("[✓] products.csv updated with ASINs, titles, and categories")
-
+# Generate AI posts for new products
+for product in products:
+    post_file = os.path.join(CONTENT_DIR, f"{product['asin'].lower()}.md")
+    if os.path.exists(post_file):
+        print(f"[i] Skipping existing post: {post_file}")
+        continue
+    print(f"[>] Generating AI post for {product['title']}")
+    generate_post_for_product(product)  # your AI generator handles writing the markdown
+    time.sleep(1)  # avoid overwhelming the AI API

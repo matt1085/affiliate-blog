@@ -2651,3 +2651,8 @@ Total in 61 ms
  rewrite public/tags/outdoor/index.xml (60%)
 To https://github.com/matt1085/affiliate-blog.git
    ec965ed..510eb11  main -> main
+Start building sites … 
+hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 BuildDate=2025-08-27T15:37:16Z VendorInfo=snap:0.149.0
+
+Total in 14 ms
+Error: error building site: process: readAndProcessContent: "/home/elizabeth/affiliate-blog/content/posts/b071g4cqsr.md:2:1": EOF looking for end TOML front matter delimiter

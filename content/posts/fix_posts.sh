@@ -1,24 +1,29 @@
 #!/bin/bash
+# Fix Hugo posts front matter
 
 for file in *.md; do
-  # Remove duplicate front matter
-  sed -i '/^+++$/,+1d' "$file"
-
-  # Add correct front matter if missing
-  slug=$(basename "$file" .md)
-  if ! grep -q "title" "$file"; then
-    cat <<EOT > tmpfile
-+++
-title = "$slug"
-date = $(date +%Y-%m-%dT%H:%M:%S)
-categories = ["General"]
-featuredImage = "/images/$slug.jpg"
-draft = false
-+++
-EOT
-    cat "$file" >> tmpfile
-    mv tmpfile "$file"
+  # Extract first line that looks like a title, else fallback to filename
+  title=$(grep -m1 "^title" "$file" | sed 's/title *= *//;s/[\"']//g')
+  if [ -z "$title" ]; then
+    title=$(basename "$file" .md)
   fi
-done
 
-echo "All posts cleaned and front matter fixed!"
+  # Backup original
+  cp "$file" "$file.bak"
+
+  # Write clean front matter + body
+  {
+    echo "---"
+    echo "title: \"$title\""
+    echo "date: $(date -Iseconds)"
+    echo "draft: false"
+    echo "categories: [\"General\"]"
+    echo "tags: []"
+    echo "featuredImage: \"\""
+    echo "summary: \"\""
+    echo "---"
+    echo
+    # Append body without broken old front matter
+    sed '/^title *=/d;/^date *=/d;/^draft *=/d;/^categories *=/d;/^tags *=/d;/^featuredImage *=/d;/^summary *=/d' "$file.bak"
+  } > "$file"
+done

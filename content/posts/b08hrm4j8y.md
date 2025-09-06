@@ -5,17 +5,6 @@ categories = ["General"]
 featuredImage = "/images/b08hrm4j8y.jpg"
 draft = false
 +++
-date = 2025-09-05T20:27:58
-categories = ["General"]
-featuredImage = "/images/b08hrm4j8y.jpg"
-draft = false
-categories = ["General"]
-featuredImage = "/images/b08hrm4j8y.jpg"
-draft = false
-
-
-date = 2025-09-04T22:34:04.374747
-categories = ["General"]
 
 As outdoor enthusiasts, we've all been there - stuck in the dark with nothing but a phone to light our way. But what >
 
@@ -23,7 +12,7 @@ As outdoor enthusiasts, we've all been there - stuck in the dark with nothing bu
 
 First and foremost, this lantern is BRIGHT. With a maximum output of 600 lumens, it's like having a mini sun in your >
 
-But what really sets the Lighthouse 600 apart is its ability to double as a USB power hub. With two built-in USB ports >
+But what really sets the Lighthouse 600 apart is its ability to double as a USB power hub. With two built-in USB port>
 
 **Practical Usage Tips**
 
@@ -35,3 +24,4 @@ But what really sets the Lighthouse 600 apart is its ability to double as a USB 
 **Get Your Lighthouse 600 Today!**
 
 [Buy Goal Zero Lighthouse 600 Lantern & USB Power Hub](https://www.amazon.com/dp/B08HRM4J8Y)
+

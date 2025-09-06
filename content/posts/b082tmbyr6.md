@@ -4,7 +4,6 @@ date = 2025-09-05T20:46:55
 categories = ["General"]
 featuredImage = "/images/b082tmbyr6.jpg"
 draft = false
-+++
 date = 2025-09-05T20:27:58
 categories = ["General"]
 featuredImage = "/images/b082tmbyr6.jpg"

@@ -2623,3 +2623,18 @@ Total in 68 ms
  2 files changed, 21 insertions(+)
 To https://github.com/matt1085/affiliate-blog.git
    e882b39..efa3836  main -> main
+Start building sites … 
+hugo v0.149.0-66240338f1b908ca3b163384c8229943e74eb290+extended linux/amd64 BuildDate=2025-08-27T15:37:16Z VendorInfo=snap:0.149.0
+
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │ 139 
+ Paginator pages  │   0 
+ Non-page files   │   1 
+ Static files     │  66 
+ Processed images │   0 
+ Aliases          │   0 
+ Cleaned          │   0 
+
+Total in 61 ms

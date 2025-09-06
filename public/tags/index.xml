@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Smart Gear Reviews</title>
-    <link>https://affiliate-blog.netlify.app/tags/</link>
+    <link>http://localhost:46263/tags/</link>
     <description>Recent content in Tags on Smart Gear Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Sep 2025 02:00:01 +0000</lastBuildDate>
-    <atom:link href="https://affiliate-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:46263/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
-      <link>https://affiliate-blog.netlify.app/tags/guide/</link>
+      <link>http://localhost:46263/tags/guide/</link>
       <pubDate>Sat, 06 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/guide/</guid>
+      <guid>http://localhost:46263/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Home</title>
-      <link>https://affiliate-blog.netlify.app/tags/home/</link>
+      <link>http://localhost:46263/tags/home/</link>
       <pubDate>Sat, 06 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/home/</guid>
+      <guid>http://localhost:46263/tags/home/</guid>
       <description></description>
     </item>
     <item>
       <title>Renewable</title>
-      <link>https://affiliate-blog.netlify.app/tags/renewable/</link>
+      <link>http://localhost:46263/tags/renewable/</link>
       <pubDate>Sat, 06 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/renewable/</guid>
+      <guid>http://localhost:46263/tags/renewable/</guid>
       <description></description>
     </item>
     <item>
       <title>Solar</title>
-      <link>https://affiliate-blog.netlify.app/tags/solar/</link>
+      <link>http://localhost:46263/tags/solar/</link>
       <pubDate>Sat, 06 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/solar/</guid>
+      <guid>http://localhost:46263/tags/solar/</guid>
       <description></description>
     </item>
     <item>
       <title>Lantern</title>
-      <link>https://affiliate-blog.netlify.app/tags/lantern/</link>
+      <link>http://localhost:46263/tags/lantern/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/lantern/</guid>
+      <guid>http://localhost:46263/tags/lantern/</guid>
       <description></description>
     </item>
     <item>
       <title>Lighting</title>
-      <link>https://affiliate-blog.netlify.app/tags/lighting/</link>
+      <link>http://localhost:46263/tags/lighting/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/lighting/</guid>
+      <guid>http://localhost:46263/tags/lighting/</guid>
       <description></description>
     </item>
     <item>
       <title>Outdoor</title>
-      <link>https://affiliate-blog.netlify.app/tags/outdoor/</link>
+      <link>http://localhost:46263/tags/outdoor/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/outdoor/</guid>
+      <guid>http://localhost:46263/tags/outdoor/</guid>
       <description></description>
     </item>
   </channel>

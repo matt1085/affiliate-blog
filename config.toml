@@ -3,18 +3,20 @@ baseURL = "https://affiliate-blog.netlify.app/"
 languageCode = "en-us"
 title = "Smart Gear Reviews"
 theme = "hermit"
-disqusShortname = ""           # leave empty if not using Disqus
+disqusShortname = ""  # leave empty if not using Disqus
 defaultContentLanguage = "en"
 enableMultilingual = false
 
 # Params for Hermit Theme
 [params]
-  description = "Expert reviews, guides, and top picks for outdoor gear, power stations, and smart home essentials — helpful reviews you can trust."
-  showReadingTime = true        # show reading time on posts
-  showCategories = true         # show categories for posts
-  showTags = true               # show tags for posts
-  googleAnalytics = "G-503912485"  # your GA4 Measurement ID
-  customCSS = ["css/custom.css"]   # optional custom CSS for styling
+  description = "Expert reviews, guides, and top picks for outdoor gear, power stations, and smart home essentials."
+  showReadingTime = true       # show reading time on posts
+  showCategories = true        # show categories for posts
+  showTags = true              # show tags for posts
+  sidebar = true               # show sidebar
+  enableToc = true             # show table of contents on posts
+  googleAnalytics = "G-503912485"  # GA4 Measurement ID
+  customCSS = ["css/custom.css"]   # optional custom CSS
 
   # Date Formats
   dateform = "January 2, 2006"
@@ -22,10 +24,10 @@ enableMultilingual = false
   dateformNumTime = "2006-01-02 15:04"
 
   # Affiliate / Product Settings
-  enableAffiliateButtons = true     # allow buy buttons in posts
-  featuredImageWidth = 1200         # control featured image size
-  enableFeaturedImages = true       # show featured images on posts and lists
-  showProductPrice = true           # display product price if provided
-  showRatingStars = true            # show rating stars if provided
-  relatedPostsCount = 3             # number of related posts to show
+  enableAffiliateButtons = true
+  featuredImageWidth = 1200
+  enableFeaturedImages = true
+  showProductPrice = true
+  showRatingStars = true
+  relatedPostsCount = 3
 

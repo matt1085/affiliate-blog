@@ -2,19 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://affiliate-blog.netlify.app/categories/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
+    <loc>https://affiliate-blog.netlify.app/categories/gear/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
+    <loc>https://affiliate-blog.netlify.app/tags/guide/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
+    <loc>https://affiliate-blog.netlify.app/tags/home/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
+    <loc>https://affiliate-blog.netlify.app/posts/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
+    <loc>https://affiliate-blog.netlify.app/tags/renewable/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
+    <loc>https://affiliate-blog.netlify.app/tags/solar/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
+    <loc>https://affiliate-blog.netlify.app/posts/2025-09-06-0200-auto-post/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
+    <loc>https://affiliate-blog.netlify.app/tags/</loc>
+    <lastmod>2025-09-06T02:00:01+00:00</lastmod>
+  </url><url>
     <loc>https://affiliate-blog.netlify.app/posts/b082tmbyr6/</loc>
     <lastmod>2025-09-05T20:46:55+00:00</lastmod>
   </url><url>
     <loc>https://affiliate-blog.netlify.app/posts/b08hrm4j8y/</loc>
     <lastmod>2025-09-05T20:46:55+00:00</lastmod>
   </url><url>
-    <loc>https://affiliate-blog.netlify.app/categories/</loc>
-    <lastmod>2025-09-05T20:46:55+00:00</lastmod>
-  </url><url>
     <loc>https://affiliate-blog.netlify.app/categories/general/</loc>
-    <lastmod>2025-09-05T20:46:55+00:00</lastmod>
-  </url><url>
-    <loc>https://affiliate-blog.netlify.app/posts/</loc>
     <lastmod>2025-09-05T20:46:55+00:00</lastmod>
   </url><url>
     <loc>https://affiliate-blog.netlify.app/posts/2025-08-31-auto-post/</loc>
@@ -246,7 +267,5 @@
     <loc>https://affiliate-blog.netlify.app/posts_backup/product_4/</loc>
   </url><url>
     <loc>https://affiliate-blog.netlify.app/posts_backup/product_5/</loc>
-  </url><url>
-    <loc>https://affiliate-blog.netlify.app/tags/</loc>
   </url>
 </urlset>

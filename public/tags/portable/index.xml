@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portable on Smart Gear Reviews</title>
-    <link>http://localhost:1313/tags/portable/</link>
+    <link>https://affiliate-blog.netlify.app/tags/portable/</link>
     <description>Recent content in Portable on Smart Gear Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Sep 2025 22:35:02 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/portable/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://affiliate-blog.netlify.app/tags/portable/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Goal Zero Lighthouse Mini Core Lantern</title>
-      <link>http://localhost:1313/general/goal-zero-lantern/</link>
+      <link>https://affiliate-blog.netlify.app/general/goal-zero-lantern/</link>
       <pubDate>Thu, 04 Sep 2025 22:35:02 +0000</pubDate>
-      <guid>http://localhost:1313/general/goal-zero-lantern/</guid>
+      <guid>https://affiliate-blog.netlify.app/general/goal-zero-lantern/</guid>
       <description>&lt;p&gt;As outdoor enthusiasts, we know that a reliable light source is essential for any adventure&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>BigBlue 63W Foldable Solar Charger</title>
-      <link>http://localhost:1313/general/bigblue-63w-solar-charger/</link>
+      <link>https://affiliate-blog.netlify.app/general/bigblue-63w-solar-charger/</link>
       <pubDate>Thu, 04 Sep 2025 22:31:09 +0000</pubDate>
-      <guid>http://localhost:1313/general/bigblue-63w-solar-charger/</guid>
+      <guid>https://affiliate-blog.netlify.app/general/bigblue-63w-solar-charger/</guid>
       <description>&lt;p&gt;As outdoor enthusiasts, we know that our devices are always one step away from running out of juice&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

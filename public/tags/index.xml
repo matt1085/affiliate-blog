@@ -2,59 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Smart Gear Reviews</title>
-    <link>http://localhost:40577/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Smart Gear Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Sep 2025 02:00:01 +0000</lastBuildDate>
-    <atom:link href="http://localhost:40577/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Sep 2025 02:00:01 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
-      <link>http://localhost:40577/tags/guide/</link>
-      <pubDate>Sat, 06 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>http://localhost:40577/tags/guide/</guid>
+      <link>http://localhost:1313/tags/guide/</link>
+      <pubDate>Sun, 07 Sep 2025 02:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Home</title>
-      <link>http://localhost:40577/tags/home/</link>
-      <pubDate>Sat, 06 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>http://localhost:40577/tags/home/</guid>
+      <link>http://localhost:1313/tags/home/</link>
+      <pubDate>Sun, 07 Sep 2025 02:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/tags/home/</guid>
       <description></description>
     </item>
     <item>
       <title>Renewable</title>
-      <link>http://localhost:40577/tags/renewable/</link>
-      <pubDate>Sat, 06 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>http://localhost:40577/tags/renewable/</guid>
+      <link>http://localhost:1313/tags/renewable/</link>
+      <pubDate>Sun, 07 Sep 2025 02:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/tags/renewable/</guid>
       <description></description>
     </item>
     <item>
       <title>Solar</title>
-      <link>http://localhost:40577/tags/solar/</link>
-      <pubDate>Sat, 06 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>http://localhost:40577/tags/solar/</guid>
+      <link>http://localhost:1313/tags/solar/</link>
+      <pubDate>Sun, 07 Sep 2025 02:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/tags/solar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Battery</title>
+      <link>http://localhost:1313/tags/battery/</link>
+      <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
+      <guid>http://localhost:1313/tags/battery/</guid>
       <description></description>
     </item>
     <item>
       <title>Lantern</title>
-      <link>http://localhost:40577/tags/lantern/</link>
+      <link>http://localhost:1313/tags/lantern/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>http://localhost:40577/tags/lantern/</guid>
+      <guid>http://localhost:1313/tags/lantern/</guid>
       <description></description>
     </item>
     <item>
       <title>Lighting</title>
-      <link>http://localhost:40577/tags/lighting/</link>
+      <link>http://localhost:1313/tags/lighting/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>http://localhost:40577/tags/lighting/</guid>
+      <guid>http://localhost:1313/tags/lighting/</guid>
       <description></description>
     </item>
     <item>
       <title>Outdoor</title>
-      <link>http://localhost:40577/tags/outdoor/</link>
+      <link>http://localhost:1313/tags/outdoor/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>http://localhost:40577/tags/outdoor/</guid>
+      <guid>http://localhost:1313/tags/outdoor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>http://localhost:1313/tags/review/</link>
+      <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
+      <guid>http://localhost:1313/tags/review/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lighting on Smart Gear Reviews</title>
-    <link>http://localhost:33461/tags/lighting/</link>
+    <link>https://affiliate-blog.netlify.app/tags/lighting/</link>
     <description>Recent content in Lighting on Smart Gear Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Sep 2025 20:46:54 +0000</lastBuildDate>
-    <atom:link href="http://localhost:33461/tags/lighting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://affiliate-blog.netlify.app/tags/lighting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LuminAID PackLite Max Solar Inflatable Lantern</title>
-      <link>http://localhost:33461/posts/2025-09-05-affordable-solar-guide/</link>
+      <link>https://affiliate-blog.netlify.app/posts/2025-09-05-affordable-solar-guide/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>http://localhost:33461/posts/2025-09-05-affordable-solar-guide/</guid>
+      <guid>https://affiliate-blog.netlify.app/posts/2025-09-05-affordable-solar-guide/</guid>
       <description>Eco-friendly, portable, and reliable lighting solution for outdoor adventures.</description>
     </item>
   </channel>

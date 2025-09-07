@@ -2,73 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Smart Gear Reviews</title>
-    <link>https://affiliate-blog.netlify.app/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Smart Gear Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Sep 2025 02:00:01 +0000</lastBuildDate>
-    <atom:link href="https://affiliate-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
-      <link>https://affiliate-blog.netlify.app/tags/guide/</link>
+      <link>http://localhost:1313/tags/guide/</link>
       <pubDate>Sun, 07 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/guide/</guid>
+      <guid>http://localhost:1313/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Home</title>
-      <link>https://affiliate-blog.netlify.app/tags/home/</link>
+      <link>http://localhost:1313/tags/home/</link>
       <pubDate>Sun, 07 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/home/</guid>
+      <guid>http://localhost:1313/tags/home/</guid>
       <description></description>
     </item>
     <item>
       <title>Renewable</title>
-      <link>https://affiliate-blog.netlify.app/tags/renewable/</link>
+      <link>http://localhost:1313/tags/renewable/</link>
       <pubDate>Sun, 07 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/renewable/</guid>
+      <guid>http://localhost:1313/tags/renewable/</guid>
       <description></description>
     </item>
     <item>
       <title>Solar</title>
-      <link>https://affiliate-blog.netlify.app/tags/solar/</link>
+      <link>http://localhost:1313/tags/solar/</link>
       <pubDate>Sun, 07 Sep 2025 02:00:01 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/solar/</guid>
+      <guid>http://localhost:1313/tags/solar/</guid>
       <description></description>
     </item>
     <item>
       <title>Battery</title>
-      <link>https://affiliate-blog.netlify.app/tags/battery/</link>
+      <link>http://localhost:1313/tags/battery/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/battery/</guid>
+      <guid>http://localhost:1313/tags/battery/</guid>
       <description></description>
     </item>
     <item>
       <title>Lantern</title>
-      <link>https://affiliate-blog.netlify.app/tags/lantern/</link>
+      <link>http://localhost:1313/tags/lantern/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/lantern/</guid>
+      <guid>http://localhost:1313/tags/lantern/</guid>
       <description></description>
     </item>
     <item>
       <title>Lighting</title>
-      <link>https://affiliate-blog.netlify.app/tags/lighting/</link>
+      <link>http://localhost:1313/tags/lighting/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/lighting/</guid>
+      <guid>http://localhost:1313/tags/lighting/</guid>
       <description></description>
     </item>
     <item>
       <title>Outdoor</title>
-      <link>https://affiliate-blog.netlify.app/tags/outdoor/</link>
+      <link>http://localhost:1313/tags/outdoor/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/outdoor/</guid>
+      <guid>http://localhost:1313/tags/outdoor/</guid>
       <description></description>
     </item>
     <item>
       <title>Review</title>
-      <link>https://affiliate-blog.netlify.app/tags/review/</link>
+      <link>http://localhost:1313/tags/review/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>https://affiliate-blog.netlify.app/tags/review/</guid>
+      <guid>http://localhost:1313/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Camping</title>
+      <link>http://localhost:1313/tags/camping/</link>
+      <pubDate>Thu, 04 Sep 2025 22:35:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/camping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Light</title>
+      <link>http://localhost:1313/tags/light/</link>
+      <pubDate>Thu, 04 Sep 2025 22:35:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/light/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portable</title>
+      <link>http://localhost:1313/tags/portable/</link>
+      <pubDate>Thu, 04 Sep 2025 22:35:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/portable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charger</title>
+      <link>http://localhost:1313/tags/charger/</link>
+      <pubDate>Thu, 04 Sep 2025 22:31:09 +0000</pubDate>
+      <guid>http://localhost:1313/tags/charger/</guid>
       <description></description>
     </item>
   </channel>

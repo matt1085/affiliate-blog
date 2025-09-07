@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Outdoor on Smart Gear Reviews</title>
-    <link>http://localhost:1313/tags/outdoor/</link>
+    <link>http://localhost:33461/tags/outdoor/</link>
     <description>Recent content in Outdoor on Smart Gear Reviews</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Sep 2025 20:46:54 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/outdoor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:33461/tags/outdoor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>b07bmjph8l</title>
-      <link>http://localhost:1313/posts/b07bmjph8l/</link>
+      <link>http://localhost:33461/posts/b07bmjph8l/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>http://localhost:1313/posts/b07bmjph8l/</guid>
+      <guid>http://localhost:33461/posts/b07bmjph8l/</guid>
       <description>A hands-on review of one of the most popular portable power stations.</description>
     </item>
     <item>
       <title>LuminAID PackLite Max Solar Inflatable Lantern</title>
-      <link>http://localhost:1313/posts/2025-09-05-affordable-solar-guide/</link>
+      <link>http://localhost:33461/posts/2025-09-05-affordable-solar-guide/</link>
       <pubDate>Fri, 05 Sep 2025 20:46:54 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-09-05-affordable-solar-guide/</guid>
+      <guid>http://localhost:33461/posts/2025-09-05-affordable-solar-guide/</guid>
       <description>Eco-friendly, portable, and reliable lighting solution for outdoor adventures.</description>
     </item>
   </channel>

@@ -1,3 +1,9 @@
++++
+title = "Untitled Product"
+date = 2025-09-04
+draft = false
++++
+
 title = "Untitled Product"
 date = 2025-09-04
 draft = false

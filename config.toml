@@ -1,27 +1,30 @@
 # Site Settings
-baseURL = "https://affiliate-blog.netlify.app/"
+baseURL = "https://matt1085-affiliate.netlify.app/"
 languageCode = "en-us"
 title = "Smart Gear Reviews"
-theme = "hermit"
-disqusShortname = ""  # leave empty if not using Disqus
-defaultContentLanguage = "en"
-enableMultilingual = false
+theme = "kiera"
+paginate = 10
+enableRobotsTXT = true
 
-# Params for Hermit Theme
 [params]
-  description = "Expert reviews, guides, and top picks for outdoor gear, power stations, and smart home essentials."
-  showReadingTime = true       # show reading time on posts
-  showCategories = true        # show categories for posts
-  showTags = true              # show tags for posts
-  sidebar = true               # show sidebar
-  enableToc = true             # show table of contents on posts
-  googleAnalytics = "G-503912485"  # GA4 Measurement ID
-  customCSS = ["css/custom.css"]   # optional custom CSS
+  subtitle = "Expert reviews and buying guides for outdoor gear, power stations, and smart home essentials"
+  author = "Matthew Peterson"
+  githubURL = "https://github.com/matt1085/affiliate-blog"
+  twitter = "@matt_peterson1085"
+  linkedin = "matt-peterson-1085"
 
-  # Date Formats
-  dateform = "January 2, 2006"
-  dateformShort = "Jan 2, 2006"
-  dateformNumTime = "2006-01-02 15:04"
+  # Layout & UI
+  showReadingTime = true
+  showSidebar = true
+  enableToc = true       # table of contents for posts
+  showCategories = true
+  showTags = true
+
+  # SEO & Analytics
+  googleAnalytics = "G-503912485"  # GA4 Measurement ID
+  enableSitemap = true
+  rss = true
+  defaultOGImage = "/images/default-og.jpg"
 
   # Affiliate / Product Settings
   enableAffiliateButtons = true
@@ -31,3 +34,10 @@ enableMultilingual = false
   showRatingStars = true
   relatedPostsCount = 3
 
+  # Date Formats
+  dateform = "January 2, 2006"
+  dateformShort = "Jan 2, 2006"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Custom CSS (optional)
+  customCSS = ["css/custom.css"]

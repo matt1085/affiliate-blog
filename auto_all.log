@@ -3705,3 +3705,564 @@ hugo v0.150.0-3f5473b7d4e7377e807290c3acc89feeef1aaa71+extended linux/amd64 Buil
  Cleaned          │   0 
 
 Total in 52 ms
+[main 843cc56] Automated update: 2025-09-09 00:00:02
+ 3 files changed, 20 insertions(+)
+ create mode 100644 .auto_generate_posts.py.swp
+To https://github.com/matt1085/affiliate-blog.git
+   1b8998f..843cc56  main -> main
+[i] Skipping existing product: B07BMJPH8L
+[i] Skipping existing product: B082TMBYR6
+[i] Skipping existing product: B0B9XB57XM
+[i] Skipping existing product: B08WWX5GTZ
+[i] Skipping existing product: B0BX9FCSQQ
+[i] Skipping existing product: B0716JV1SG
+[i] Skipping existing product: B09WW3CTF4
+[i] Skipping existing product: B09NQL39X5
+[i] Skipping existing product: B071G4CQSR
+[i] Skipping existing product: B0D3DZWXT4
+[i] Skipping existing product: B09NTNTVRJ
+[i] Skipping existing product: B0D5CCY5Y2
+[i] Skipping existing product: B01EXWCPLC
+[i] Skipping existing product: B09W2CFT61
+[i] Skipping existing product: B0BJDBQXQ3
+[i] Skipping existing product: B09H6GGK55
+[i] Skipping existing product: B075YRKVMH
+[i] Skipping existing product: B0B7KY3D15
+[i] Skipping existing product: B079JVBVL3
+[i] Skipping existing product: B07H8CM4F1
+[i] Skipping existing product: B0D7PPG25F
+[i] Skipping existing product: B0F42CSQWG
+[i] Skipping existing product: B0CHVYPYD8
+[i] Skipping existing product: B0CRDBGN2N
+[i] Skipping existing product: B0CBB6HFMM
+[i] Skipping existing product: B0C1Z4GLKS
+[i] Skipping existing product: B0DCC2BVFW
+[i] Skipping existing product: B08HRM4J8Y
+[i] Skipping existing product: B07HFJH6D3
+[i] Skipping existing product: B07Q416Q8Z
+[i] Skipping existing product: B0BHN322QV
+[i] Skipping existing product: B001QC78QK
+[i] Skipping existing product: B075MGL7R8
+[i] Skipping existing product: B0DXQQYF7X
+[✓] products.csv updated with 34 products
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07bmjph8l.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b082tmbyr6.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0b9xb57xm.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b08wwx5gtz.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bx9fcsqq.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0716jv1sg.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09ww3ctf4.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09nql39x5.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b071g4cqsr.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d3dzwxt4.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09ntntvrj.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d5ccy5y2.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b01exwcplc.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09w2cft61.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bjdbqxq3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09h6ggk55.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b075yrkvmh.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0b7ky3d15.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b079jvbvl3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07h8cm4f1.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d7ppg25f.md
+[>] Generating AI post for BLUETTI Elite 100 V2 (2025 New) Solar Generator, 1024Wh LFP Battery Backup w/ 4 1800W AC Outlets (3600W Surge), 35% Smaller, Portable Power for Camping, Outages, and UPS Backup (Solar Panel Optional)
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b0f42csqwg.md
+[>] Generating AI post for Product B0CHVYPYD8
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b0chvypyd8.md
+[>] Generating AI post for Product B0CRDBGN2N
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b0crdbgn2n.md
+[>] Generating AI post for Anker SOLIX F2000 Solar Generator, 2048Wh Portable Power Station with LiFePO4 Batteries and 400W Solar Panel, GaNPrime Technology, 4 AC Outlets Up to 2400W for Home, Power Outages, Camping, and RVs
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b0cbb6hfmm.md
+[>] Generating AI post for EF ECOFLOW Portable Power Station 3600Wh DELTA Pro, 120V AC Outlets x 5, 3600W, 2.7H Fast Charge, Lifepo4 Power Station, Solar Generator for Home Use, Power Outage, Camping, RV, Emergencies
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b0c1z4glks.md
+[>] Generating AI post for Product B0DCC2BVFW
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b0dcc2bvfw.md
+[>] Generating AI post for Lighthouse 600 Multi Functional Adjustable Light Perfect for Camping, Outdoor Events, or Emergency use Lumens USB Charging of Phones and Small Devices Long-Lasting Lithium Battery.
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b08hrm4j8y.md
+[>] Generating AI post for Product B07HFJH6D3
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b07hfjh6d3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07q416q8z.md
+[>] Generating AI post for Product B0BHN322QV
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b0bhn322qv.md
+[>] Generating AI post for Product B001QC78QK
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b001qc78qk.md
+[>] Generating AI post for Product B075MGL7R8
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b075mgl7r8.md
+[>] Generating AI post for Product B0DXQQYF7X
+[+] Generated post: /home/elizabeth/affiliate-blog/content/posts/b0dxqqyf7x.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07bmjph8l.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b082tmbyr6.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0b9xb57xm.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b08wwx5gtz.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bx9fcsqq.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0716jv1sg.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09ww3ctf4.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09nql39x5.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b071g4cqsr.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d3dzwxt4.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09ntntvrj.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d5ccy5y2.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b01exwcplc.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09w2cft61.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bjdbqxq3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09h6ggk55.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b075yrkvmh.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0b7ky3d15.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b079jvbvl3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07h8cm4f1.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d7ppg25f.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0f42csqwg.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0chvypyd8.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0crdbgn2n.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0cbb6hfmm.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0c1z4glks.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0dcc2bvfw.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b08hrm4j8y.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07hfjh6d3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07q416q8z.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bhn322qv.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b001qc78qk.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b075mgl7r8.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0dxqqyf7x.md
+Front matter added to all markdown files!
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    .auto_generate_posts.py.swp
+	modified:   auto_all.log
+	modified:   auto_push.log
+	modified:   auto_push.sh
+	modified:   config.toml
+	modified:   content/posts/2025-09-08-0200-auto-post.md
+	modified:   content/posts/b07q416q8z.md
+	modified:   content_backup/content/posts/b01exwcplc.md
+	modified:   content_backup/content/posts/b071g4cqsr.md
+	modified:   content_backup/content/posts/b075yrkvmh.md
+	modified:   content_backup/content/posts/b079jvbvl3.md
+	modified:   content_backup/content/posts/b07bmjph8l.md
+	modified:   content_backup/content/posts/b07h8cm4f1.md
+	modified:   content_backup/content/posts/b082tmbyr6.md
+	modified:   content_backup/content/posts/b08wwx5gtz.md
+	modified:   content_backup/content/posts/b09h6ggk55.md
+	modified:   content_backup/content/posts/b09nql39x5.md
+	modified:   content_backup/content/posts/b09ntntvrj.md
+	modified:   content_backup/content/posts/b09w2cft61.md
+	modified:   content_backup/content/posts/b09ww3ctf4.md
+	modified:   content_backup/content/posts/b0b7ky3d15.md
+	modified:   content_backup/content/posts/b0b9xb57xm.md
+	modified:   content_backup/content/posts/b0bjdbqxq3.md
+	modified:   content_backup/content/posts/b0bx9fcsqq.md
+	modified:   content_backup/content/posts/b0c1z4glks.md
+	modified:   content_backup/content/posts/b0cbb6hfmm.md
+	modified:   content_backup/content/posts/b0chvypyd8.md
+	modified:   content_backup/content/posts/b0crdbgn2n.md
+	modified:   content_backup/content/posts/b0d3dzwxt4.md
+	modified:   content_backup/content/posts/b0d5ccy5y2.md
+	modified:   content_backup/content/posts/b0d7ppg25f.md
+	modified:   content_backup/content/posts/b0f42csqwg.md
+	deleted:    themes/hermit/.editorconfig
+	deleted:    themes/hermit/.gitattributes
+	deleted:    themes/hermit/LICENSE
+	deleted:    themes/hermit/README.md
+	deleted:    themes/hermit/archetypes/default.md
+	deleted:    themes/hermit/archetypes/posts.md
+	deleted:    themes/hermit/assets/js/code-copy.js
+	deleted:    themes/hermit/assets/js/main.js
+	deleted:    themes/hermit/assets/scss/_animate.scss
+	deleted:    themes/hermit/assets/scss/_normalize.scss
+	deleted:    themes/hermit/assets/scss/_predefined.scss
+	deleted:    themes/hermit/assets/scss/_syntax.scss
+	deleted:    themes/hermit/assets/scss/style.scss
+	deleted:    themes/hermit/exampleSite/config.toml
+	deleted:    themes/hermit/exampleSite/content/about-hugo.md
+	deleted:    themes/hermit/exampleSite/content/posts/creating-a-new-theme.md
+	deleted:    themes/hermit/exampleSite/content/posts/goisforlovers.md
+	deleted:    themes/hermit/exampleSite/content/posts/hugoisforlovers.md
+	deleted:    themes/hermit/exampleSite/content/posts/migrate-from-jekyll.md
+	deleted:    themes/hermit/exampleSite/content/posts/post-with-featured-image.md
+	deleted:    themes/hermit/exampleSite/content/posts/the-figure-shortcode.md
+	deleted:    themes/hermit/exampleSite/content/posts/typography.md
+	deleted:    themes/hermit/i18n/en.toml
+	deleted:    themes/hermit/i18n/fr.toml
+	deleted:    themes/hermit/i18n/it.toml
+	deleted:    themes/hermit/i18n/zh-hans.toml
+	deleted:    themes/hermit/images/hermit.png
+	deleted:    themes/hermit/images/screenshot.png
+	deleted:    themes/hermit/images/tn.png
+	deleted:    themes/hermit/layouts/404.html
+	deleted:    themes/hermit/layouts/_default/baseof.html
+	deleted:    themes/hermit/layouts/_default/list.html
+	deleted:    themes/hermit/layouts/_default/single.html
+	deleted:    themes/hermit/layouts/index.html
+	deleted:    themes/hermit/layouts/partials/analytics.html
+	deleted:    themes/hermit/layouts/partials/favicons.html
+	deleted:    themes/hermit/layouts/partials/footer.html
+	deleted:    themes/hermit/layouts/partials/header.html
+	deleted:    themes/hermit/layouts/partials/menu.html
+	deleted:    themes/hermit/layouts/partials/related-posts.html
+	deleted:    themes/hermit/layouts/partials/social-icons.html
+	deleted:    themes/hermit/layouts/partials/structured-data.html
+	deleted:    themes/hermit/layouts/partials/svg.html
+	deleted:    themes/hermit/layouts/posts/rss.xml
+	deleted:    themes/hermit/layouts/posts/single.html
+	deleted:    themes/hermit/netlify.toml
+	deleted:    themes/hermit/resources/_gen/assets/scss/scss/style.scss_c16d144eee185fbddd582cd5e25a4fae.content
+	deleted:    themes/hermit/resources/_gen/assets/scss/scss/style.scss_c16d144eee185fbddd582cd5e25a4fae.json
+	deleted:    themes/hermit/static/android-chrome-192x192.png
+	deleted:    themes/hermit/static/android-chrome-384x384.png
+	deleted:    themes/hermit/static/apple-touch-icon.png
+	deleted:    themes/hermit/static/browserconfig.xml
+	deleted:    themes/hermit/static/favicon-16x16.png
+	deleted:    themes/hermit/static/favicon-32x32.png
+	deleted:    themes/hermit/static/favicon.ico
+	deleted:    themes/hermit/static/mstile-150x150.png
+	deleted:    themes/hermit/static/safari-pinned-tab.svg
+	deleted:    themes/hermit/static/site.webmanifest
+	deleted:    themes/hermit/theme.toml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.venv/
+	config_backup.toml
+	content/posts/b001qc78qk.md
+	content/posts/b01exwcplc.md
+	content/posts/b0716jv1sg.md
+	content/posts/b071g4cqsr.md
+	content/posts/b075mgl7r8.md
+	content/posts/b075yrkvmh.md
+	content/posts/b079jvbvl3.md
+	content/posts/b07bmjph8l.md
+	content/posts/b07h8cm4f1.md
+	content/posts/b07hfjh6d3.md
+	content/posts/b082tmbyr6.md
+	content/posts/b08hrm4j8y.md
+	content/posts/b08wwx5gtz.md
+	content/posts/b09h6ggk55.md
+	content/posts/b09nql39x5.md
+	content/posts/b09ntntvrj.md
+	content/posts/b09w2cft61.md
+	content/posts/b09ww3ctf4.md
+	content/posts/b0b7ky3d15.md
+	content/posts/b0b9xb57xm.md
+	content/posts/b0bhn322qv.md
+	content/posts/b0bjdbqxq3.md
+	content/posts/b0bx9fcsqq.md
+	content/posts/b0c1z4glks.md
+	content/posts/b0cbb6hfmm.md
+	content/posts/b0chvypyd8.md
+	content/posts/b0crdbgn2n.md
+	content/posts/b0d3dzwxt4.md
+	content/posts/b0d5ccy5y2.md
+	content/posts/b0d7ppg25f.md
+	content/posts/b0dcc2bvfw.md
+	content/posts/b0dxqqyf7x.md
+	content/posts/b0f42csqwg.md
+	content_backup/content/affiliate-disclosure.md
+	content_backup/content/general/
+	content_backup/content/posts/2025-09-08-0200-auto-post.md
+	content_backup/content/posts/b0716jv1sg.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+  File "/home/elizabeth/affiliate-blog/send_email_updates.py", line 1
+    const fetch = require("node-fetch");
+          ^^^^^
+SyntaxError: invalid syntax
+[i] Skipping existing product: B07BMJPH8L
+[i] Skipping existing product: B082TMBYR6
+[i] Skipping existing product: B0B9XB57XM
+[i] Skipping existing product: B08WWX5GTZ
+[i] Skipping existing product: B0BX9FCSQQ
+[i] Skipping existing product: B0716JV1SG
+[i] Skipping existing product: B09WW3CTF4
+[i] Skipping existing product: B09NQL39X5
+[i] Skipping existing product: B071G4CQSR
+[i] Skipping existing product: B0D3DZWXT4
+[i] Skipping existing product: B09NTNTVRJ
+[i] Skipping existing product: B0D5CCY5Y2
+[i] Skipping existing product: B01EXWCPLC
+[i] Skipping existing product: B09W2CFT61
+[i] Skipping existing product: B0BJDBQXQ3
+[i] Skipping existing product: B09H6GGK55
+[i] Skipping existing product: B075YRKVMH
+[i] Skipping existing product: B0B7KY3D15
+[i] Skipping existing product: B079JVBVL3
+[i] Skipping existing product: B07H8CM4F1
+[i] Skipping existing product: B0D7PPG25F
+[i] Skipping existing product: B0F42CSQWG
+[i] Skipping existing product: B0CHVYPYD8
+[i] Skipping existing product: B0CRDBGN2N
+[i] Skipping existing product: B0CBB6HFMM
+[i] Skipping existing product: B0C1Z4GLKS
+[i] Skipping existing product: B0DCC2BVFW
+[i] Skipping existing product: B08HRM4J8Y
+[i] Skipping existing product: B07HFJH6D3
+[i] Skipping existing product: B07Q416Q8Z
+[i] Skipping existing product: B0BHN322QV
+[i] Skipping existing product: B001QC78QK
+[i] Skipping existing product: B075MGL7R8
+[i] Skipping existing product: B0DXQQYF7X
+[✓] products.csv updated with 34 products
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07bmjph8l.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b082tmbyr6.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0b9xb57xm.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b08wwx5gtz.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bx9fcsqq.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0716jv1sg.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09ww3ctf4.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09nql39x5.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b071g4cqsr.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d3dzwxt4.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09ntntvrj.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d5ccy5y2.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b01exwcplc.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09w2cft61.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bjdbqxq3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09h6ggk55.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b075yrkvmh.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0b7ky3d15.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b079jvbvl3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07h8cm4f1.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d7ppg25f.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0f42csqwg.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0chvypyd8.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0crdbgn2n.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0cbb6hfmm.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0c1z4glks.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0dcc2bvfw.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b08hrm4j8y.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07hfjh6d3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07q416q8z.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bhn322qv.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b001qc78qk.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b075mgl7r8.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0dxqqyf7x.md
+[?2026h[?25l[1G⠋ [K[?25h[?2026l[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07bmjph8l.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b082tmbyr6.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0b9xb57xm.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b08wwx5gtz.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bx9fcsqq.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0716jv1sg.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09ww3ctf4.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09nql39x5.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b071g4cqsr.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d3dzwxt4.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09ntntvrj.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d5ccy5y2.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b01exwcplc.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09w2cft61.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bjdbqxq3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b09h6ggk55.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b075yrkvmh.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0b7ky3d15.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b079jvbvl3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07h8cm4f1.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0d7ppg25f.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0f42csqwg.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0chvypyd8.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0crdbgn2n.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0cbb6hfmm.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0c1z4glks.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0dcc2bvfw.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b08hrm4j8y.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07hfjh6d3.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b07q416q8z.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0bhn322qv.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b001qc78qk.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b075mgl7r8.md
+[i] Skipping existing post: /home/elizabeth/affiliate-blog/content/posts/b0dxqqyf7x.md
+✅ Front matter added to all markdown files (Kiera-compatible)!
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    .auto_generate_posts.py.swp
+	modified:   add_front_matter.py
+	modified:   auto_all.log
+	modified:   auto_push.log
+	modified:   auto_push.sh
+	modified:   backup_posts/b001qc78qk.md
+	modified:   backup_posts/b01exwcplc.md
+	modified:   backup_posts/b0716jv1sg.md
+	modified:   backup_posts/b071g4cqsr.md
+	modified:   backup_posts/b075mgl7r8.md
+	modified:   backup_posts/b075yrkvmh.md
+	modified:   backup_posts/b079jvbvl3.md
+	modified:   backup_posts/b07bmjph8l.md
+	modified:   backup_posts/b07h8cm4f1.md
+	modified:   backup_posts/b07hfjh6d3.md
+	modified:   backup_posts/b07q416q8z.md
+	modified:   backup_posts/b082tmbyr6.md
+	modified:   backup_posts/b08hrm4j8y.md
+	modified:   backup_posts/b08wwx5gtz.md
+	modified:   backup_posts/b09h6ggk55.md
+	modified:   backup_posts/b09nql39x5.md
+	modified:   backup_posts/b09ntntvrj.md
+	modified:   backup_posts/b09w2cft61.md
+	modified:   backup_posts/b09ww3ctf4.md
+	modified:   backup_posts/b0b7ky3d15.md
+	modified:   backup_posts/b0b9xb57xm.md
+	modified:   backup_posts/b0bhn322qv.md
+	modified:   backup_posts/b0bjdbqxq3.md
+	modified:   backup_posts/b0bx9fcsqq.md
+	modified:   backup_posts/b0c1z4glks.md
+	modified:   backup_posts/b0cbb6hfmm.md
+	modified:   backup_posts/b0chvypyd8.md
+	modified:   backup_posts/b0crdbgn2n.md
+	modified:   backup_posts/b0d3dzwxt4.md
+	modified:   backup_posts/b0d5ccy5y2.md
+	modified:   backup_posts/b0d7ppg25f.md
+	modified:   backup_posts/b0dcc2bvfw.md
+	modified:   backup_posts/b0dxqqyf7x.md
+	modified:   backup_posts/b0f42csqwg.md
+	modified:   backup_posts/product_1.md
+	modified:   backup_posts/product_2.md
+	modified:   backup_posts/product_3.md
+	modified:   backup_posts/product_4.md
+	modified:   backup_posts/product_5.md
+	modified:   config.toml
+	modified:   content/posts/2025-09-08-0200-auto-post.md
+	modified:   content/posts/b07q416q8z.md
+	modified:   content_backup/content/posts/b01exwcplc.md
+	modified:   content_backup/content/posts/b071g4cqsr.md
+	modified:   content_backup/content/posts/b075yrkvmh.md
+	modified:   content_backup/content/posts/b079jvbvl3.md
+	modified:   content_backup/content/posts/b07bmjph8l.md
+	modified:   content_backup/content/posts/b07h8cm4f1.md
+	modified:   content_backup/content/posts/b082tmbyr6.md
+	modified:   content_backup/content/posts/b08wwx5gtz.md
+	modified:   content_backup/content/posts/b09h6ggk55.md
+	modified:   content_backup/content/posts/b09nql39x5.md
+	modified:   content_backup/content/posts/b09ntntvrj.md
+	modified:   content_backup/content/posts/b09w2cft61.md
+	modified:   content_backup/content/posts/b09ww3ctf4.md
+	modified:   content_backup/content/posts/b0b7ky3d15.md
+	modified:   content_backup/content/posts/b0b9xb57xm.md
+	modified:   content_backup/content/posts/b0bjdbqxq3.md
+	modified:   content_backup/content/posts/b0bx9fcsqq.md
+	modified:   content_backup/content/posts/b0c1z4glks.md
+	modified:   content_backup/content/posts/b0cbb6hfmm.md
+	modified:   content_backup/content/posts/b0chvypyd8.md
+	modified:   content_backup/content/posts/b0crdbgn2n.md
+	modified:   content_backup/content/posts/b0d3dzwxt4.md
+	modified:   content_backup/content/posts/b0d5ccy5y2.md
+	modified:   content_backup/content/posts/b0d7ppg25f.md
+	modified:   content_backup/content/posts/b0f42csqwg.md
+	deleted:    themes/hermit/.editorconfig
+	deleted:    themes/hermit/.gitattributes
+	deleted:    themes/hermit/LICENSE
+	deleted:    themes/hermit/README.md
+	deleted:    themes/hermit/archetypes/default.md
+	deleted:    themes/hermit/archetypes/posts.md
+	deleted:    themes/hermit/assets/js/code-copy.js
+	deleted:    themes/hermit/assets/js/main.js
+	deleted:    themes/hermit/assets/scss/_animate.scss
+	deleted:    themes/hermit/assets/scss/_normalize.scss
+	deleted:    themes/hermit/assets/scss/_predefined.scss
+	deleted:    themes/hermit/assets/scss/_syntax.scss
+	deleted:    themes/hermit/assets/scss/style.scss
+	deleted:    themes/hermit/exampleSite/config.toml
+	deleted:    themes/hermit/exampleSite/content/about-hugo.md
+	deleted:    themes/hermit/exampleSite/content/posts/creating-a-new-theme.md
+	deleted:    themes/hermit/exampleSite/content/posts/goisforlovers.md
+	deleted:    themes/hermit/exampleSite/content/posts/hugoisforlovers.md
+	deleted:    themes/hermit/exampleSite/content/posts/migrate-from-jekyll.md
+	deleted:    themes/hermit/exampleSite/content/posts/post-with-featured-image.md
+	deleted:    themes/hermit/exampleSite/content/posts/the-figure-shortcode.md
+	deleted:    themes/hermit/exampleSite/content/posts/typography.md
+	deleted:    themes/hermit/i18n/en.toml
+	deleted:    themes/hermit/i18n/fr.toml
+	deleted:    themes/hermit/i18n/it.toml
+	deleted:    themes/hermit/i18n/zh-hans.toml
+	deleted:    themes/hermit/images/hermit.png
+	deleted:    themes/hermit/images/screenshot.png
+	deleted:    themes/hermit/images/tn.png
+	deleted:    themes/hermit/layouts/404.html
+	deleted:    themes/hermit/layouts/_default/baseof.html
+	deleted:    themes/hermit/layouts/_default/list.html
+	deleted:    themes/hermit/layouts/_default/single.html
+	deleted:    themes/hermit/layouts/index.html
+	deleted:    themes/hermit/layouts/partials/analytics.html
+	deleted:    themes/hermit/layouts/partials/favicons.html
+	deleted:    themes/hermit/layouts/partials/footer.html
+	deleted:    themes/hermit/layouts/partials/header.html
+	deleted:    themes/hermit/layouts/partials/menu.html
+	deleted:    themes/hermit/layouts/partials/related-posts.html
+	deleted:    themes/hermit/layouts/partials/social-icons.html
+	deleted:    themes/hermit/layouts/partials/structured-data.html
+	deleted:    themes/hermit/layouts/partials/svg.html
+	deleted:    themes/hermit/layouts/posts/rss.xml
+	deleted:    themes/hermit/layouts/posts/single.html
+	deleted:    themes/hermit/netlify.toml
+	deleted:    themes/hermit/resources/_gen/assets/scss/scss/style.scss_c16d144eee185fbddd582cd5e25a4fae.content
+	deleted:    themes/hermit/resources/_gen/assets/scss/scss/style.scss_c16d144eee185fbddd582cd5e25a4fae.json
+	deleted:    themes/hermit/static/android-chrome-192x192.png
+	deleted:    themes/hermit/static/android-chrome-384x384.png
+	deleted:    themes/hermit/static/apple-touch-icon.png
+	deleted:    themes/hermit/static/browserconfig.xml
+	deleted:    themes/hermit/static/favicon-16x16.png
+	deleted:    themes/hermit/static/favicon-32x32.png
+	deleted:    themes/hermit/static/favicon.ico
+	deleted:    themes/hermit/static/mstile-150x150.png
+	deleted:    themes/hermit/static/safari-pinned-tab.svg
+	deleted:    themes/hermit/static/site.webmanifest
+	deleted:    themes/hermit/theme.toml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.venv/
+	backup_posts/2025-09-08-0200-auto-post.md
+	config_backup.toml
+	content/posts/b001qc78qk.md
+	content/posts/b01exwcplc.md
+	content/posts/b0716jv1sg.md
+	content/posts/b071g4cqsr.md
+	content/posts/b075mgl7r8.md
+	content/posts/b075yrkvmh.md
+	content/posts/b079jvbvl3.md
+	content/posts/b07bmjph8l.md
+	content/posts/b07h8cm4f1.md
+	content/posts/b07hfjh6d3.md
+	content/posts/b082tmbyr6.md
+	content/posts/b08hrm4j8y.md
+	content/posts/b08wwx5gtz.md
+	content/posts/b09h6ggk55.md
+	content/posts/b09nql39x5.md
+	content/posts/b09ntntvrj.md
+	content/posts/b09w2cft61.md
+	content/posts/b09ww3ctf4.md
+	content/posts/b0b7ky3d15.md
+	content/posts/b0b9xb57xm.md
+	content/posts/b0bhn322qv.md
+	content/posts/b0bjdbqxq3.md
+	content/posts/b0bx9fcsqq.md
+	content/posts/b0c1z4glks.md
+	content/posts/b0cbb6hfmm.md
+	content/posts/b0chvypyd8.md
+	content/posts/b0crdbgn2n.md
+	content/posts/b0d3dzwxt4.md
+	content/posts/b0d5ccy5y2.md
+	content/posts/b0d7ppg25f.md
+	content/posts/b0dcc2bvfw.md
+	content/posts/b0dxqqyf7x.md
+	content/posts/b0f42csqwg.md
+	content_backup/content/affiliate-disclosure.md
+	content_backup/content/general/
+	content_backup/content/posts/2025-09-08-0200-auto-post.md
+	content_backup/content/posts/b0716jv1sg.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026lEverything up-to-date
+  File "/home/elizabeth/affiliate-blog/send_email_updates.py", line 1
+    const fetch = require("node-fetch");
+          ^^^^^
+SyntaxError: invalid syntax
+[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠋ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?2026h[?25l[1G⠴ [K[?25h[?2026l[?2026h[?25l[1G⠦ [K[?25h[?2026l[?2026h[?25l[1G⠧ [K[?25h[?2026l[?2026h[?25l[1G⠇ [K[?25h[?2026l[?2026h[?25l[1G⠏ [K[?25h[?2026l[?25l[?2026h[?25l[1G[K[?25h[?2026l[2K[1G[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?2026h[?25l[1G⠙ [K[?25h[?2026l[?2026h[?25l[1G⠹ [K[?25h[?2026l[?2026h[?25l[1G⠸ [K[?25h[?2026l[?2026h[?25l[1G⠼ [K[?25h[?2026l[?25l[?2026h[?25l[1G[K[?25h[?2026l[2K[1G[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25hGenerated: /home/elizabeth/affiliate-blog/content/posts/2025-09-09-0200-auto-post.md
+Total in 3 ms
+Error: failed to load modules: module "hermit" not found in "/home/elizabeth/affiliate-blog/themes/hermit"; either add it as a Hugo Module or store it in "/home/elizabeth/affiliate-blog/themes".: module does not exist

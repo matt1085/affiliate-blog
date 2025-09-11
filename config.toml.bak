@@ -3,13 +3,11 @@ baseURL = "https://matt1085-affiliate.netlify.app/"
 languageCode = "en-us"
 title = "Smart Gear Reviews"
 theme = "kiera"
+paginate = 10
 enableRobotsTXT = true
 
-[pagination]
-  pagerSize = 10
-
 [params]
-  subtitle = "Expert reviews and buying guides for outdoor gear, power stations, and smart home tech"
+  subtitle = "Expert reviews and buying guides for outdoor gear, power stations, and smart home essentials"
   author = "Matthew Peterson"
   githubURL = "https://github.com/matt1085/affiliate-blog"
   twitter = "@matt_peterson1085"
@@ -43,10 +41,3 @@ enableRobotsTXT = true
 
   # Custom CSS (optional)
   customCSS = ["css/custom.css"]
-
-  # 💬 Utterances (GitHub comments)
-  UtterancesRepo = "matt1085/affiliate-comments"
-  UtterancesTheme = "github-light"
-
-# 🚫 Disable Disqus safely (avoids theme crash)
-disqusShortname = ""

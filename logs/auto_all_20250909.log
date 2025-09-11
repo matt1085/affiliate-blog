@@ -1,0 +1,4 @@
+✅ Generated: /home/elizabeth/affiliate-blog/content/posts/2025-09-09-0322-auto-post.md
+Total in 0 ms
+Error: failed to load modules: module "hermit" not found in "/home/elizabeth/affiliate-blog/themes/hermit"; either add it as a Hugo Module or store it in "/home/elizabeth/affiliate-blog/themes".: module does not exist
+❌ Hugo build failed

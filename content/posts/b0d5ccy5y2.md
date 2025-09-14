@@ -1,13 +1,36 @@
-+++
-title = "Jackery SolarSaga 200W Portable Solar Panel"
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T00:52:16'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "Jackery SolarSaga 200W Portable Solar Panel"
-date: 2025-09-09T00:52:16.445608
-categories: ["Solar"]
+
+- Solar
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Harnessing the Power of the Sun with Jackery's SolarSaga 200W Portable Solar Panel**
 

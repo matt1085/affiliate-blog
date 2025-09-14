@@ -1,13 +1,36 @@
-+++
-title = "EcoFlow Portable Power Station River 2 Max"
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T00:45:12'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "EcoFlow Portable Power Station River 2 Max"
-date: 2025-09-09T00:45:12.632991
-categories: ["Generator"]
+
+- Generator
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Empower Your Adventures with EcoFlow's Portable Power Station, River 2 Max**
 

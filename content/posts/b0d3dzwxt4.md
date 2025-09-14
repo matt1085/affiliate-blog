@@ -1,13 +1,36 @@
-+++
-title = "Renogy 100W N-Type Monocrystalline Solar Panel"
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T00:50:39'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "Renogy 100W N-Type Monocrystalline Solar Panel"
-date: 2025-09-09T00:50:39.327619
-categories: ["Solar"]
+
+- Solar
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Powering Your Off-Grid Adventure: The Renogy 100W N-Type Monocrystalline Solar Panel**
 

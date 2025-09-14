@@ -1,13 +1,36 @@
-+++
-title = "Anker SOLIX F2000 Solar Generator, 2048Wh Portable Power Station with LiFePO4 Batteries and 400W Solar Panel, GaNPrime Technology, 4 AC Outlets Up to 2400W for Home, Power Outages, Camping, and RVs"
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T01:06:05'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "Anker SOLIX F2000 Solar Generator, 2048Wh Portable Power Station with LiFePO4 Batteries and 400W Solar Panel, GaNPrime Technology, 4 AC Outlets Up to 2400W for Home, Power Outages, Camping, and RVs"
-date: 2025-09-09T01:06:05.473617
-categories: ["Solar Power"]
+
+- Generator
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Empower Your Adventures with the Anker SOLIX F2000 Solar Generator**
 

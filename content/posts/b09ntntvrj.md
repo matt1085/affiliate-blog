@@ -1,13 +1,36 @@
-+++
-title = "Belkin BoostCharge 20K Portable Power Bank"
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T00:51:30'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "Belkin BoostCharge 20K Portable Power Bank"
-date: 2025-09-09T00:51:30.612130
-categories: ["Power Bank"]
+
+- Power Bank
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Staying Powered on the Go with Belkin's BoostCharge 20K Portable Power Bank**
 

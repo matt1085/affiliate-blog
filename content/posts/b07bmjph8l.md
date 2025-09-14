@@ -1,12 +1,31 @@
+---
+title: A
+date: '2025-09-09T00:00:00'
+draft: false
+categories:
+- General
+---
+
+---
+
+- Camping Lantern
+
+image: images/placeholder.jpg
+
+---
+
 +++
-title = "Goal Zero Crush Light Solar Powered Lantern"
-date = 2025-09-04T02:00:00
-categories = ["Power Stations", "Camping Gear"]
-tags = ["outdoor","battery","review","solar","lantern"]
-draft = false
-featuredImage = "/images/goal-zero-crush-light.jpg"
-description = "Review and buying guide for Goal Zero Crush Light Solar Powered Lantern — the perfect outdoor companion for camping, hiking, and emergency power."
+
+
+
+
+
+
 +++
+
+
+
+
 
 ## Lighting Up Your Adventures with Goal Zero's Crush Light
 

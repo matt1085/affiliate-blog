@@ -1,13 +1,36 @@
-+++
-title = "Lighthouse 600 Multi Functional Adjustable Light Perfect for Camping, Outdoor Events, or Emergency use Lumens USB Charging of Phones and Small Devices Long-Lasting Lithium Battery."
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T01:10:49'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "Lighthouse 600 Multi Functional Adjustable Light Perfect for Camping, Outdoor Events, or Emergency use Lumens USB Charging of Phones and Small Devices Long-Lasting Lithium Battery."
-date: 2025-09-09T01:10:49.487113
-categories: ["General"]
+
+- Camping Lantern
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Shine Bright: The Ultimate Multi-Functional Light for Your Adventures**
 

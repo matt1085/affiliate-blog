@@ -1,13 +1,36 @@
-+++
-title = "BigBlue 28W Solar Phone Charger"
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T00:49:53'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "BigBlue 28W Solar Phone Charger"
-date: 2025-09-09T00:49:53.874350
-categories: ["Portable Solar"]
+
+- Portable Solar
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Unlock the Power of the Sun with BigBlue 28W Solar Phone Charger**
 

@@ -1,0 +1,14 @@
+✅ Generated: /home/elizabeth/affiliate-blog/content/posts/2025-09-11-0200-auto-post.md
+Start building sites … 
+hugo v0.150.0-3f5473b7d4e7377e807290c3acc89feeef1aaa71+extended linux/amd64 BuildDate=2025-09-08T13:01:12Z VendorInfo=snap:0.150.0
+
+Total in 21 ms
+Error: error building site: process: readAndProcessContent: "/home/elizabeth/affiliate-blog/content/posts/2025-09-11-0200-auto-post.md:2:11": unmarshal failed: toml: expected newline but got U+0053 'S'
+❌ Hugo build failed
+✅ Generated: /home/elizabeth/affiliate-blog/content/posts/2025-09-11-0230-auto-post.md
+Start building sites … 
+hugo v0.150.0-3f5473b7d4e7377e807290c3acc89feeef1aaa71+extended linux/amd64 BuildDate=2025-09-08T13:01:12Z VendorInfo=snap:0.150.0
+
+Total in 38 ms
+Error: error building site: process: readAndProcessContent: "/home/elizabeth/affiliate-blog/content/posts/2025-09-11-0200-auto-post.md:2:11": unmarshal failed: toml: expected newline but got U+0053 'S'
+❌ Hugo build failed

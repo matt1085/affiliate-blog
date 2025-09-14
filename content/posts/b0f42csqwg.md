@@ -1,13 +1,36 @@
-+++
-title = "BLUETTI Elite 100 V2 (2025 New) Solar Generator, 1024Wh LFP Battery Backup w/ 4 1800W AC Outlets (3600W Surge), 35% Smaller, Portable Power for Camping, Outages, and UPS Backup (Solar Panel Optional)"
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T01:01:24'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "BLUETTI Elite 100 V2 (2025 New) Solar Generator, 1024Wh LFP Battery Backup w/ 4 1800W AC Outlets (3600W Surge), 35% Smaller, Portable Power for Camping, Outages, and UPS Backup (Solar Panel Optional)"
-date: 2025-09-09T01:01:24.962461
-categories: ["Solar Power"]
+
+- Generator
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Introducing the Ultimate Solar Generator: BLUETTI Elite 100 V2**
 

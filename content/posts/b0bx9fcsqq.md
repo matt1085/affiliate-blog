@@ -1,13 +1,36 @@
-+++
-title = "Anker 625 Solar Panel (100W)"
-date = 2025-09-04
-draft = false
-+++
+---
+title: A
+date: '2025-09-09T00:46:51'
+draft: false
+categories:
+- General
+---
 
 ---
-title: "Anker 625 Solar Panel (100W)"
-date: 2025-09-09T00:46:51.634384
-categories: ["Solar"]
+
+- Solar
+
+image: images/placeholder.jpg
+
+---
+
++++
+
+
+
+
+
+
++++
+
+
+
+
+
+---
+
+
+
 ---
 **Unlock the Power of the Sun with Anker's 625 Solar Panel (100W)**
 
